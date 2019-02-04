@@ -144,7 +144,8 @@ public class CalendarStuff {
    *         be decremented to make the appropriate index value
    */
    public static boolean isValidDate( long month, long day, long year ) {
-      return !( ( month > 12 ) || ( month < 1 ) || ( day > daysInMonth ( month, year ) ) || ( year < 1000 ) ).;
+      // return !( ( month > 12 ) || ( month < 1 ) || ( day > daysInMonth ( month, year ) ) || ( year < 1000 ) ).;
+      return !( ( month > 12 ) || ( month < 1 ) || ( day > daysInMonth ( month, year ) ) || ( year < 1000 ) );
    }
 
   /**
@@ -153,7 +154,7 @@ public class CalendarStuff {
    * @return         String containing the string value of the month (no spaces)
    */
    public static String toMonthString( int month ) {
-      String nameMonth
+      String nameMonth;
       switch( month - 1 ) {
         case 0: nameMonth = "January";
           break;
@@ -220,16 +221,21 @@ public class CalendarStuff {
    * @return          long   count of total number of days
    */
    public static long daysBetween( long month1, long day1, long year1, long month2, long day2, long year2 ) {
-     if ( ( isValidDate ( month1, day1, year1 ) ) != || isValidDate ( month2, day2, year2 ) != true )
-       throw new IllegalArgumentException ( "oops, that doesn't seem to be a valid date")
-     else
+     // if ( ( isValidDate ( month1, day1, year1 ) ) != || isValidDate ( month2, day2, year2 ) != true )
+     //  throw new IllegalArgumentException ( "oops, that doesn't seem to be a valid date")
+     if ( ( isValidDate ( month1, day1, year1 ) ) != true || isValidDate ( month2, day2, year2 ) != true )
+       throw new IllegalArgumentException ( "oops, that doesn't seem to be a valid date");
+     //else
      int [] tempDays = days.clone();
-     long date1 [] = day1, ( month1 - 1 ), year1;
-     long date2 [] = day2, ( month2 - 1 ), year2;
+     // long date1 [] = day1, ( month1 - 1 ), year1;
+     // long date2 [] = day2, ( month2 - 1 ), year2;
+     long date1 [] = {day1, ( month1 - 1 ), year1};
+     long date2 [] = {day2, ( month2 - 1 ), year2};
      long dayCount = 0;
      switch ( compareDate ( month1, day1, year1, month2, day2, year2 ) ) {
      case -1:
-       for ( long [] dateMod = date1 [0] ,date1 [1] ,date1 [2] , 0; dateMod [3] <= 1; dayCount++) {
+       // for ( long [] dateMod = date1 [0] ,date1 [1] ,date1 [2] , 0; dateMod [3] <= 1; dayCount++) {
+       for ( long [] dateMod = {date1 [0] ,date1 [1] ,date1 [2] , 0}; dateMod [3] <= 1; dayCount++) {
 
             //a test for if it is a new month or not
             if ( dateMod [0] > daysTemp [ (int)dateMod[1]])
@@ -255,8 +261,8 @@ public class CalendarStuff {
                  dateMod [2] ++;
 
              dateMod [0] ++;
-     case 1:
-     for ( long [] dateMod = date2 [0] ,date2 [1] ,date2 [2] , 0; dateMod [3] <= 1; dayCount++) {
+//     case 1:
+     for ( long [] dateMod = {date2 [0] ,date2 [1] ,date2 [2] , 0}; dateMod [3] <= 1; dayCount++) {
 
           //a test for if it is a new month or not
           if (dateMod[0] > daysTemp [ (int) dateMod [1] ] )
@@ -283,6 +289,6 @@ public class CalendarStuff {
 
            dateMod [0] ++;
 
-     case 0:
+//     case 0:
          return dayCount;
-     default: throw new IllegalArgumentException( "Illegal day value given to 'daysBetween()'." );
+//     default: throw new IllegalArgumentException( "Illegal day value given to 'daysBetween()'." );
