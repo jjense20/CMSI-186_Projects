@@ -1,0 +1,457 @@
+TESTING THE DIE CLASS: TEST CONSTRUCTOR FOR INVALID NUMBERS OF SIDES:
+   Too few sides requested to constructor....
+   Too few sides requested to constructor....
+   Too few sides requested to constructor....
+   Too few sides requested to constructor....
+TESTING THE DIE CLASS: TESTS ON 4-SIDED DIE:
+   roll() test for 4 sided die: 
+   You rolled a 3
+   You rolled a 3
+   You rolled a 3
+   You rolled a 1
+   You rolled a 3
+   Current value is: 3
+TESTING THE DIE CLASS: TESTS ON 5-SIDED DIE:
+   roll() test for 5 sided die: 
+   You rolled a 5
+   You rolled a 1
+   You rolled a 3
+   You rolled a 3
+   You rolled a 1
+   Current value is: 1
+TESTING THE DIE CLASS: TESTS ON 6-SIDED DIE:
+   roll() test for 6 sided die: 
+   You rolled a 2
+   You rolled a 5
+   You rolled a 4
+   You rolled a 5
+   You rolled a 1
+   Current value is: 1
+TESTING THE DIE CLASS: TESTS ON 7-SIDED DIE:
+   roll() test for 7 sided die: 
+   You rolled a 4
+   You rolled a 4
+   You rolled a 3
+   You rolled a 7
+   You rolled a 2
+   Current value is: 2
+TESTING THE DIE CLASS: TESTS ON 8-SIDED DIE:
+   roll() test for 8 sided die: 
+   You rolled a 2
+   You rolled a 2
+   You rolled a 4
+   You rolled a 2
+   You rolled a 2
+   Current value is: 2
+TESTING THE DIE CLASS: TESTS ON 11-SIDED DIE USING NEW SIDE COUNT:
+   Rolling with new side count -- 
+      You rolled a 9
+      You rolled a 7
+      You rolled a 8
+      You rolled a 1
+      You rolled a 6
+TESTING THE DIE CLASS: TESTS ON 17-SIDED DIE USING NEW SIDE COUNT:
+   Rolling with new side count -- 
+      You rolled a 4
+      current value is: 4
+TESTING THE DIE CLASS: TESTS ON 111-SIDED DIE USING NEW SIDE COUNT:
+   Rolling with new side count -- 
+      You rolled a 90
+      current value is: 90
+......End of Die Class Testing.....
+
+
+TESTING THE DICESET CLASS: TEST CONSTRUCTOR FOR 3 SIX-SIDED DICE:
+  DiceSet: 3 dice, six sided - ds36:
+      initialized ds36 contents             : [1][1][1]
+      after collective roll ds36 contents   : [3][5][5]
+      after individual roll(2) ds36 contents: [3][5][2]
+      sum of dice values is: 10
+   Re-rolling all dice
+      after collective roll ds36 contents   : [6][1][6]
+      after individual roll(2) ds36 contents: [6][1][1]
+      sum of dice values is                 : 8
+   Test of getIndividual(): 
+      value of die at index 0: 6
+      value of die at index 1: 1
+      value of die at index 2: 1
+TESTING THE DICESET CLASS: TEST CONSTRUCTOR FOR 6 NINE-SIDED DICE:
+   DiceSet: 6 dice, nine sided - ds69:
+      initialized ds36 contents             : [1][1][1][1][1][1]
+      after collective roll ds69 contents   : [3][3][4][5][5][7]
+      after individual roll(2) ds69 contents: [3][3][8][5][5][7]
+      sum of dice values is                 : 31
+   Re-rolling all dice
+      after collective roll ds69 contents   : [9][3][2][4][6][3]
+      after individual roll(3) ds69 contents: [9][3][2][7][6][3]
+      sum of dice values is                 : 30
+   Test of getIndividual(): 
+      value of die at index 0: 9
+      value of die at index 1: 3
+      value of die at index 2: 2
+      value of die at index 3: 7
+      value of die at index 4: 6
+      value of die at index 5: 3
+TESTING THE DICESET CLASS: TEST CONSTRUCTOR FOR 9 SEVENTEEN-SIDED DICE:
+   DiceSet: 9 dice, 17 sided - ds917:
+      initialized ds36 contents              : [1][1][1][1][1][1][1][1][1]
+      after collective roll ds917 contents   : [3][5][2][3][14][9][6][14][5]
+      after individual roll(6) ds917 contents: [3][5][2][3][14][9][2][14][5]
+      sum of dice values is                  : 57
+   Re-rolling all dice
+      after collective roll ds917 contents   : [15][14][13][1][12][3][1][1][5]
+      after individual roll(8) ds69 contents : [15][14][13][1][12][3][1][1][2]
+      sum of dice values is                  : 62
+   Test of getIndividual(): 
+      value of die at index 0: 15
+      value of die at index 1: 14
+      value of die at index 2: 13
+      value of die at index 3: 1
+      value of die at index 4: 12
+      value of die at index 5: 3
+      value of die at index 6: 1
+      value of die at index 7: 1
+      value of die at index 8: 2
+TESTING THE DICESET CLASS: TEST 'isIdentical()' FOR 9 SEVENTEEN-SIDED DICE:
+   Test of isIndentical(): 
+      Test of ds917 against ds69   : false
+      Test of ds917 against itself : true
+TESTING THE DICESET CLASS: TEST 'isIdentical()' FOR NEW SET OF 9 SEVENTEEN-SIDED DICE:
+   DiceSet ds917 contents       : [12][4][5][14][16][4][8][9][17]
+      New DiceSet ds2_917 contents : [12][14][15][9][9][5][8][2][16]
+      Test of ds917 against ds2_917: true
+......End of DiceSet Class Testing.....
+
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+1
+
+ You rolled [4][3][2][2][6]
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+1
+
+ You rolled [6][6][5][2][3]
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+1
+
+ You rolled [2][2][4][1][1]
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+2
+
+ What's the index of the dice you're rolling 
+
+>>
+
+ You rolled die #3 within the set
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+2
+
+ What's the index of the dice you're rolling 
+
+>>
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+1
+
+ You rolled [15][4][9][9][9][5][13][5][2][9][8]
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+1
+
+ You rolled [16][16][6][5][10][3][14][8][16][4][3]
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+1
+
+ You rolled [14][5][15][7][17][13][7][5][16][6][15]
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+2
+
+ What's the index of the dice you're rolling 
+
+>>
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+1
+
+ You rolled [3][4][1][3][3][3][2][3][1][2][1][1][2][1][2][1][1][1][2][3][1][3][1][1][1][4][3][1][4]
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+1
+
+ You rolled [1][3][1][1][1][2][2][4][1][1][4][2][4][1][3][1][2][4][2][3][4][1][1][2][3][1][2][3][1]
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+1
+
+ You rolled [2][1][4][2][4][2][2][2][4][2][2][3][2][4][1][3][1][2][2][2][1][3][2][3][1][1][3][3][1]
+
+
+ Try out this Dice Game! 
+
+
+ Enter '1' ROLL ALL THE DICE 
+
+
+ Enter '2' ROLL A SINGLE DICE 
+
+
+ Enter '3' CALCULATE THE SCORE FOR THIS SET 
+
+
+ Enter '4' SAVE THIS SCORE AS HIGH SCORE 
+
+
+ Enter '5' DISPLAY THE HIGH SCORE 
+
+
+ Press the 'q' key to quit the program. 
+
+2
+
+ What's the index of the dice you're rolling 
+
+>>
