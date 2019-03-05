@@ -1,0 +1,86 @@
+
+Evaluation for homework 03: ClockSolver
+
+Clock and ClockSolver programs
+Includes running Clock main to observe tests
+Includes running automated ClockSolver tests
+   View testHW3.bat in your repo to see test parameters used
+============================================================
+
+Point structure for this assignment is one point wherever indicated.
+There are a total of ten points for running ClockSolver with various
+input values.  For each test, you get credit if you find *at least*
+one occurrence of the angle and log it's time.
+
+You get credit for the main() method for testing the Clock methods,
+since I gave that code to you for free.  If you didn't add any more
+tests to it, consider doing so from now on, so you'll get full credit
+for testing in the module.
+
+You also get credit for error checking code as follows:
+   if you error check in the main, you get freebie credit for the
+      error checking methods
+   if you error check by calling the ClockSolver method, you get
+      freebie credit for the other two error checking methods
+   if you error check using all three, GOOD FOR YOU!! You are an
+      increasingly competent Java programmer!!
+
+
+Points are awarded for the following items
+
+class Clock             : Exists, coding style acceptable   -  1 point
+Constructor             : Exists, works properly            -  1 point
+tick                    : works                             -  1 point
+getHourHandAngle        : works                             -  1 point
+getMinuteHandAngle      : works                             -  1 point
+getHandAngle            : works                             -  1 point
+getTotalSeconds         : works                             -  1 point
+toString                : works                             -  1 point
+main exists             : Exists                            -  1 point
+Test Code               : Contains some method test code    -  1 point
+
+class ClockSolver       : Exists, coding style acceptable   -  1 point
+Constructor             : Freebie, not really needed        -  1 point
+HandleInitialArguments  : works, freebie if not used        -  1 point
+main exists             : works                             -  1 point
+works as advertised     : passes all tests in the series    -  5 points
+							includes error checks (1 pt. for all)
+Files in Git            : two files required                -  2 points
+Coding Style overall    : coding style acceptable           -  1 point
+
+
+Total 22 out of 27 = 81.48% which is a B-minus
+
+JJ, I got exceptions for every single test case telling me that there
+was an error for the angle value, even for values that are OK.  Take
+a look at the file "clocktestcases.bat" to see the values I used.  Since
+they all threw exceptions, I can't give you credit for any of the test
+cases, sorry to say.  You *DID* write code for everything, so I'm giving
+you the benefit of the doubt and allowing 1/2 credit for each failed
+test.
+
+Something to consider: instead of just throwing an exception, try to
+handle the situation "gracefully" by putting out a message to the user
+telling them what's wrong.  For example, instead of:
+
+      if ((0 >= targetAngle || targetAngle >= 360.0)) {
+        throw new NumberFormatException("That is not a valid number between 0 and 360 degrees!");
+      }
+
+try doing:
+
+      if ((0 >= targetAngle || targetAngle >= 360.0)) {
+        System.out.println("That is not a valid number between 0 and 360 degrees!");
+        System.exit( 0 );
+      }
+
+========================
+
+Total course grade so far:
+homework00 @  5%:  100.00% =  5.00 points
+homework01 @  5%:   81.82% =  4.09 points
+homework02 @  5%:  100.00% =  5.00 points
+homework03 @ 10%:   93.94% =  9.39 points
+class part @ 10%:  100.00% = 10.00 points
+
+                     total:  33.48 out of 35.00 points = 95.66% which is an A

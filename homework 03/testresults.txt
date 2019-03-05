@@ -1,0 +1,77 @@
+
+CLOCK CLASS TESTER PROGRAM
+--------------------------
+
+  Creating a new clock: 
+0.0
+    New clock created: The time is 0.0:0.0:0.0
+    Testing validateAngleArg()....
+      sending '  0 degrees', expecting double value   0.0 - got 0.0
+
+   Hello world, from the ClockSolver program!!
+
+
+   Sorry you must enter at least one argument
+   Usage: java ClockSolver <angle> [timeSlice]
+   Please try again...........
+
+   Hello world, from the ClockSolver program!!
+
+
+Time slice will be set to default(i.e. 60 seconds)
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
+
+   Hello world, from the ClockSolver program!!
+
+
