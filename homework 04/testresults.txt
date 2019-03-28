@@ -1,0 +1,2025 @@
+.                                       
+.                                       
+======================================  
+... Testing Ball class ...              
+======================================  
+
+ Testing the methods for the Ball.java file
+IMPORTANT: toString () is using locationX () and locationY (), while move () is using speedChange ()
+Creating a ball starting at Location =  (0.000, 0.000)  Velocity of Object =  < 5.593, 8.166 >  ft/sec on an x and y plane
+
+0.0
+ When it's It's 0.0:0.0:0.0:
+Location =  (0.000, 0.000)  Velocity of Object =  < 5.593, 8.166 >  ft/sec on an x and y plane
+
+1.0
+ When it's It's 0.0:0.0:1.0:
+Location =  (5.593, 8.166)  Velocity of Object =  < 5.537, 8.084 >  ft/sec on an x and y plane
+
+2.0
+ When it's It's 0.0:0.0:2.0:
+Location =  (11.131, 16.251)  Velocity of Object =  < 5.482, 8.004 >  ft/sec on an x and y plane
+
+3.0
+ When it's It's 0.0:0.0:3.0:
+Location =  (16.613, 24.254)  Velocity of Object =  < 5.427, 7.924 >  ft/sec on an x and y plane
+
+4.0
+ When it's It's 0.0:0.0:4.0:
+Location =  (22.040, 32.178)  Velocity of Object =  < 5.373, 7.844 >  ft/sec on an x and y plane
+
+5.0
+ When it's It's 0.0:0.0:5.0:
+Location =  (27.413, 40.022)  Velocity of Object =  < 5.319, 7.766 >  ft/sec on an x and y plane
+
+6.0
+ When it's It's 0.0:0.0:6.0:
+Location =  (32.732, 47.788)  Velocity of Object =  < 5.266, 7.688 >  ft/sec on an x and y plane
+
+7.0
+ When it's It's 0.0:0.0:7.0:
+Location =  (37.998, 55.476)  Velocity of Object =  < 5.213, 7.611 >  ft/sec on an x and y plane
+
+8.0
+ When it's It's 0.0:0.0:8.0:
+Location =  (43.212, 63.088)  Velocity of Object =  < 5.161, 7.535 >  ft/sec on an x and y plane
+
+9.0
+ When it's It's 0.0:0.0:9.0:
+Location =  (48.373, 70.623)  Velocity of Object =  < 5.110, 7.460 >  ft/sec on an x and y plane
+
+Testing collision () by making two balls
+Running test for collision () for ball and testBall 1
+ Ball Location =  (53.483, 78.083)  Velocity of Object =  < 5.059, 7.385 >  ft/sec on an x and y plane
+ Ball 1 Location =  (54.483, 79.083)  Velocity of Object =  At rest 
+ Test result false
+Running test for collision () for ball and testBall 2
+ Ball Location =  (53.483, 78.083)  Velocity of Object =  < 5.059, 7.385 >  ft/sec on an x and y plane
+ Ball 2 Location =  (53.873, 78.083)  Velocity of Object =  At rest 
+Test result true
+.                                       
+.                                       
+.                                       
+.                                       
+======================================  
+... Testing Bozo class ...                
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim no args...        
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+
+ You input the wrong number of arguements man.. better luck next time 
+
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim one arg...        
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+
+ You input the wrong number of arguements man.. better luck next time 
+
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim two args...       
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+
+ You input the wrong number of arguements man.. better luck next time 
+
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim three args...     
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+
+ You input the wrong number of arguements man.. better luck next time 
+
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim six args...       
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+
+ You input the wrong number of arguements man.. better luck next time 
+
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim out of bounds...  
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+
+ THE FIELD SIZE IS 360 by 240 
+ Testing for collision with a 1.00 second time slice 
+ There is a pole at Location =  (83.654, 38.424)  Velocity of Object =  At rest 
+0.0
+WHEN It's 0.0:0.0:0.0
+ Ball 1: Location = Sadly.. out of bounds!  Velocity of Object =  < 99.000, 99.000 >  ft/sec on an x and y plane
+
+ THE PROGRAM HAS ENDED... TRY SOME DIFFERENT NUMBERS
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim negative time slice...
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+
+ You input an invalid value for time slice, try something between 0 and 1800.. better luck next time 
+
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim time slice too large...
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+
+ You input an invalid value for time slice, try something between 0 and 1800.. better luck next time 
+
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim time slice value of zero...
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball should come to rest...
+...   Should stop at about 4:42           
+======================================  
+
+ THE FIELD SIZE IS 360 by 240 
+ Testing for collision with a 1.00 second time slice 
+ There is a pole at Location =  (82.559, -8.311)  Velocity of Object =  At rest 
+0.0
+WHEN It's 0.0:0.0:0.0
+ Ball 1: Location =  (10.000, 10.000)  Velocity of Object =  < 1.000, 1.000 >  ft/sec on an x and y plane
+1.0
+WHEN It's 0.0:0.0:1.0
+ Ball 1: Location =  (11.000, 11.000)  Velocity of Object =  < 0.990, 0.990 >  ft/sec on an x and y plane
+2.0
+WHEN It's 0.0:0.0:2.0
+ Ball 1: Location =  (11.990, 11.990)  Velocity of Object =  < 0.980, 0.980 >  ft/sec on an x and y plane
+3.0
+WHEN It's 0.0:0.0:3.0
+ Ball 1: Location =  (12.970, 12.970)  Velocity of Object =  < 0.970, 0.970 >  ft/sec on an x and y plane
+4.0
+WHEN It's 0.0:0.0:4.0
+ Ball 1: Location =  (13.940, 13.940)  Velocity of Object =  < 0.961, 0.961 >  ft/sec on an x and y plane
+5.0
+WHEN It's 0.0:0.0:5.0
+ Ball 1: Location =  (14.901, 14.901)  Velocity of Object =  < 0.951, 0.951 >  ft/sec on an x and y plane
+6.0
+WHEN It's 0.0:0.0:6.0
+ Ball 1: Location =  (15.852, 15.852)  Velocity of Object =  < 0.941, 0.941 >  ft/sec on an x and y plane
+7.0
+WHEN It's 0.0:0.0:7.0
+ Ball 1: Location =  (16.793, 16.793)  Velocity of Object =  < 0.932, 0.932 >  ft/sec on an x and y plane
+8.0
+WHEN It's 0.0:0.0:8.0
+ Ball 1: Location =  (17.726, 17.726)  Velocity of Object =  < 0.923, 0.923 >  ft/sec on an x and y plane
+9.0
+WHEN It's 0.0:0.0:9.0
+ Ball 1: Location =  (18.648, 18.648)  Velocity of Object =  < 0.914, 0.914 >  ft/sec on an x and y plane
+10.0
+WHEN It's 0.0:0.0:10.0
+ Ball 1: Location =  (19.562, 19.562)  Velocity of Object =  < 0.904, 0.904 >  ft/sec on an x and y plane
+11.0
+WHEN It's 0.0:0.0:11.0
+ Ball 1: Location =  (20.466, 20.466)  Velocity of Object =  < 0.895, 0.895 >  ft/sec on an x and y plane
+12.0
+WHEN It's 0.0:0.0:12.0
+ Ball 1: Location =  (21.362, 21.362)  Velocity of Object =  < 0.886, 0.886 >  ft/sec on an x and y plane
+13.0
+WHEN It's 0.0:0.0:13.0
+ Ball 1: Location =  (22.248, 22.248)  Velocity of Object =  < 0.878, 0.878 >  ft/sec on an x and y plane
+14.0
+WHEN It's 0.0:0.0:14.0
+ Ball 1: Location =  (23.125, 23.125)  Velocity of Object =  < 0.869, 0.869 >  ft/sec on an x and y plane
+15.0
+WHEN It's 0.0:0.0:15.0
+ Ball 1: Location =  (23.994, 23.994)  Velocity of Object =  < 0.860, 0.860 >  ft/sec on an x and y plane
+16.0
+WHEN It's 0.0:0.0:16.0
+ Ball 1: Location =  (24.854, 24.854)  Velocity of Object =  < 0.851, 0.851 >  ft/sec on an x and y plane
+17.0
+WHEN It's 0.0:0.0:17.0
+ Ball 1: Location =  (25.706, 25.706)  Velocity of Object =  < 0.843, 0.843 >  ft/sec on an x and y plane
+18.0
+WHEN It's 0.0:0.0:18.0
+ Ball 1: Location =  (26.549, 26.549)  Velocity of Object =  < 0.835, 0.835 >  ft/sec on an x and y plane
+19.0
+WHEN It's 0.0:0.0:19.0
+ Ball 1: Location =  (27.383, 27.383)  Velocity of Object =  < 0.826, 0.826 >  ft/sec on an x and y plane
+20.0
+WHEN It's 0.0:0.0:20.0
+ Ball 1: Location =  (28.209, 28.209)  Velocity of Object =  < 0.818, 0.818 >  ft/sec on an x and y plane
+21.0
+WHEN It's 0.0:0.0:21.0
+ Ball 1: Location =  (29.027, 29.027)  Velocity of Object =  < 0.810, 0.810 >  ft/sec on an x and y plane
+22.0
+WHEN It's 0.0:0.0:22.0
+ Ball 1: Location =  (29.837, 29.837)  Velocity of Object =  < 0.802, 0.802 >  ft/sec on an x and y plane
+23.0
+WHEN It's 0.0:0.0:23.0
+ Ball 1: Location =  (30.639, 30.639)  Velocity of Object =  < 0.794, 0.794 >  ft/sec on an x and y plane
+24.0
+WHEN It's 0.0:0.0:24.0
+ Ball 1: Location =  (31.432, 31.432)  Velocity of Object =  < 0.786, 0.786 >  ft/sec on an x and y plane
+25.0
+WHEN It's 0.0:0.0:25.0
+ Ball 1: Location =  (32.218, 32.218)  Velocity of Object =  < 0.778, 0.778 >  ft/sec on an x and y plane
+26.0
+WHEN It's 0.0:0.0:26.0
+ Ball 1: Location =  (32.996, 32.996)  Velocity of Object =  < 0.770, 0.770 >  ft/sec on an x and y plane
+27.0
+WHEN It's 0.0:0.0:27.0
+ Ball 1: Location =  (33.766, 33.766)  Velocity of Object =  < 0.762, 0.762 >  ft/sec on an x and y plane
+28.0
+WHEN It's 0.0:0.0:28.0
+ Ball 1: Location =  (34.528, 34.528)  Velocity of Object =  < 0.755, 0.755 >  ft/sec on an x and y plane
+29.0
+WHEN It's 0.0:0.0:29.0
+ Ball 1: Location =  (35.283, 35.283)  Velocity of Object =  < 0.747, 0.747 >  ft/sec on an x and y plane
+30.0
+WHEN It's 0.0:0.0:30.0
+ Ball 1: Location =  (36.030, 36.030)  Velocity of Object =  < 0.740, 0.740 >  ft/sec on an x and y plane
+31.0
+WHEN It's 0.0:0.0:31.0
+ Ball 1: Location =  (36.770, 36.770)  Velocity of Object =  < 0.732, 0.732 >  ft/sec on an x and y plane
+32.0
+WHEN It's 0.0:0.0:32.0
+ Ball 1: Location =  (37.502, 37.502)  Velocity of Object =  < 0.725, 0.725 >  ft/sec on an x and y plane
+33.0
+WHEN It's 0.0:0.0:33.0
+ Ball 1: Location =  (38.227, 38.227)  Velocity of Object =  < 0.718, 0.718 >  ft/sec on an x and y plane
+34.0
+WHEN It's 0.0:0.0:34.0
+ Ball 1: Location =  (38.945, 38.945)  Velocity of Object =  < 0.711, 0.711 >  ft/sec on an x and y plane
+35.0
+WHEN It's 0.0:0.0:35.0
+ Ball 1: Location =  (39.655, 39.655)  Velocity of Object =  < 0.703, 0.703 >  ft/sec on an x and y plane
+36.0
+WHEN It's 0.0:0.0:36.0
+ Ball 1: Location =  (40.359, 40.359)  Velocity of Object =  < 0.696, 0.696 >  ft/sec on an x and y plane
+37.0
+WHEN It's 0.0:0.0:37.0
+ Ball 1: Location =  (41.055, 41.055)  Velocity of Object =  < 0.689, 0.689 >  ft/sec on an x and y plane
+38.0
+WHEN It's 0.0:0.0:38.0
+ Ball 1: Location =  (41.745, 41.745)  Velocity of Object =  < 0.683, 0.683 >  ft/sec on an x and y plane
+39.0
+WHEN It's 0.0:0.0:39.0
+ Ball 1: Location =  (42.427, 42.427)  Velocity of Object =  < 0.676, 0.676 >  ft/sec on an x and y plane
+40.0
+WHEN It's 0.0:0.0:40.0
+ Ball 1: Location =  (43.103, 43.103)  Velocity of Object =  < 0.669, 0.669 >  ft/sec on an x and y plane
+41.0
+WHEN It's 0.0:0.0:41.0
+ Ball 1: Location =  (43.772, 43.772)  Velocity of Object =  < 0.662, 0.662 >  ft/sec on an x and y plane
+42.0
+WHEN It's 0.0:0.0:42.0
+ Ball 1: Location =  (44.434, 44.434)  Velocity of Object =  < 0.656, 0.656 >  ft/sec on an x and y plane
+43.0
+WHEN It's 0.0:0.0:43.0
+ Ball 1: Location =  (45.090, 45.090)  Velocity of Object =  < 0.649, 0.649 >  ft/sec on an x and y plane
+44.0
+WHEN It's 0.0:0.0:44.0
+ Ball 1: Location =  (45.739, 45.739)  Velocity of Object =  < 0.643, 0.643 >  ft/sec on an x and y plane
+45.0
+WHEN It's 0.0:0.0:45.0
+ Ball 1: Location =  (46.381, 46.381)  Velocity of Object =  < 0.636, 0.636 >  ft/sec on an x and y plane
+46.0
+WHEN It's 0.0:0.0:46.0
+ Ball 1: Location =  (47.018, 47.018)  Velocity of Object =  < 0.630, 0.630 >  ft/sec on an x and y plane
+47.0
+WHEN It's 0.0:0.0:47.0
+ Ball 1: Location =  (47.647, 47.647)  Velocity of Object =  < 0.624, 0.624 >  ft/sec on an x and y plane
+48.0
+WHEN It's 0.0:0.0:48.0
+ Ball 1: Location =  (48.271, 48.271)  Velocity of Object =  < 0.617, 0.617 >  ft/sec on an x and y plane
+49.0
+WHEN It's 0.0:0.0:49.0
+ Ball 1: Location =  (48.888, 48.888)  Velocity of Object =  < 0.611, 0.611 >  ft/sec on an x and y plane
+50.0
+WHEN It's 0.0:0.0:50.0
+ Ball 1: Location =  (49.499, 49.499)  Velocity of Object =  < 0.605, 0.605 >  ft/sec on an x and y plane
+51.0
+WHEN It's 0.0:0.0:51.0
+ Ball 1: Location =  (50.104, 50.104)  Velocity of Object =  < 0.599, 0.599 >  ft/sec on an x and y plane
+52.0
+WHEN It's 0.0:0.0:52.0
+ Ball 1: Location =  (50.703, 50.703)  Velocity of Object =  < 0.593, 0.593 >  ft/sec on an x and y plane
+53.0
+WHEN It's 0.0:0.0:53.0
+ Ball 1: Location =  (51.296, 51.296)  Velocity of Object =  < 0.587, 0.587 >  ft/sec on an x and y plane
+54.0
+WHEN It's 0.0:0.0:54.0
+ Ball 1: Location =  (51.883, 51.883)  Velocity of Object =  < 0.581, 0.581 >  ft/sec on an x and y plane
+55.0
+WHEN It's 0.0:0.0:55.0
+ Ball 1: Location =  (52.465, 52.465)  Velocity of Object =  < 0.575, 0.575 >  ft/sec on an x and y plane
+56.0
+WHEN It's 0.0:0.0:56.0
+ Ball 1: Location =  (53.040, 53.040)  Velocity of Object =  < 0.570, 0.570 >  ft/sec on an x and y plane
+57.0
+WHEN It's 0.0:0.0:57.0
+ Ball 1: Location =  (53.609, 53.609)  Velocity of Object =  < 0.564, 0.564 >  ft/sec on an x and y plane
+58.0
+WHEN It's 0.0:0.0:58.0
+ Ball 1: Location =  (54.173, 54.173)  Velocity of Object =  < 0.558, 0.558 >  ft/sec on an x and y plane
+59.0
+WHEN It's 0.0:0.0:59.0
+ Ball 1: Location =  (54.732, 54.732)  Velocity of Object =  < 0.553, 0.553 >  ft/sec on an x and y plane
+60.0
+WHEN It's 0.0:1.0:0.0
+ Ball 1: Location =  (55.284, 55.284)  Velocity of Object =  < 0.547, 0.547 >  ft/sec on an x and y plane
+61.0
+WHEN It's 0.0:1.0:1.0
+ Ball 1: Location =  (55.831, 55.831)  Velocity of Object =  < 0.542, 0.542 >  ft/sec on an x and y plane
+62.0
+WHEN It's 0.0:1.0:2.0
+ Ball 1: Location =  (56.373, 56.373)  Velocity of Object =  < 0.536, 0.536 >  ft/sec on an x and y plane
+63.0
+WHEN It's 0.0:1.0:3.0
+ Ball 1: Location =  (56.909, 56.909)  Velocity of Object =  < 0.531, 0.531 >  ft/sec on an x and y plane
+64.0
+WHEN It's 0.0:1.0:4.0
+ Ball 1: Location =  (57.440, 57.440)  Velocity of Object =  < 0.526, 0.526 >  ft/sec on an x and y plane
+65.0
+WHEN It's 0.0:1.0:5.0
+ Ball 1: Location =  (57.966, 57.966)  Velocity of Object =  < 0.520, 0.520 >  ft/sec on an x and y plane
+66.0
+WHEN It's 0.0:1.0:6.0
+ Ball 1: Location =  (58.486, 58.486)  Velocity of Object =  < 0.515, 0.515 >  ft/sec on an x and y plane
+67.0
+WHEN It's 0.0:1.0:7.0
+ Ball 1: Location =  (59.001, 59.001)  Velocity of Object =  < 0.510, 0.510 >  ft/sec on an x and y plane
+68.0
+WHEN It's 0.0:1.0:8.0
+ Ball 1: Location =  (59.511, 59.511)  Velocity of Object =  < 0.505, 0.505 >  ft/sec on an x and y plane
+69.0
+WHEN It's 0.0:1.0:9.0
+ Ball 1: Location =  (60.016, 60.016)  Velocity of Object =  < 0.500, 0.500 >  ft/sec on an x and y plane
+70.0
+WHEN It's 0.0:1.0:10.0
+ Ball 1: Location =  (60.516, 60.516)  Velocity of Object =  < 0.495, 0.495 >  ft/sec on an x and y plane
+71.0
+WHEN It's 0.0:1.0:11.0
+ Ball 1: Location =  (61.011, 61.011)  Velocity of Object =  < 0.490, 0.490 >  ft/sec on an x and y plane
+72.0
+WHEN It's 0.0:1.0:12.0
+ Ball 1: Location =  (61.501, 61.501)  Velocity of Object =  < 0.485, 0.485 >  ft/sec on an x and y plane
+73.0
+WHEN It's 0.0:1.0:13.0
+ Ball 1: Location =  (61.986, 61.986)  Velocity of Object =  < 0.480, 0.480 >  ft/sec on an x and y plane
+74.0
+WHEN It's 0.0:1.0:14.0
+ Ball 1: Location =  (62.466, 62.466)  Velocity of Object =  < 0.475, 0.475 >  ft/sec on an x and y plane
+75.0
+WHEN It's 0.0:1.0:15.0
+ Ball 1: Location =  (62.941, 62.941)  Velocity of Object =  < 0.471, 0.471 >  ft/sec on an x and y plane
+76.0
+WHEN It's 0.0:1.0:16.0
+ Ball 1: Location =  (63.412, 63.412)  Velocity of Object =  < 0.466, 0.466 >  ft/sec on an x and y plane
+77.0
+WHEN It's 0.0:1.0:17.0
+ Ball 1: Location =  (63.878, 63.878)  Velocity of Object =  < 0.461, 0.461 >  ft/sec on an x and y plane
+78.0
+WHEN It's 0.0:1.0:18.0
+ Ball 1: Location =  (64.339, 64.339)  Velocity of Object =  < 0.457, 0.457 >  ft/sec on an x and y plane
+79.0
+WHEN It's 0.0:1.0:19.0
+ Ball 1: Location =  (64.796, 64.796)  Velocity of Object =  < 0.452, 0.452 >  ft/sec on an x and y plane
+80.0
+WHEN It's 0.0:1.0:20.0
+ Ball 1: Location =  (65.248, 65.248)  Velocity of Object =  < 0.448, 0.448 >  ft/sec on an x and y plane
+81.0
+WHEN It's 0.0:1.0:21.0
+ Ball 1: Location =  (65.695, 65.695)  Velocity of Object =  < 0.443, 0.443 >  ft/sec on an x and y plane
+82.0
+WHEN It's 0.0:1.0:22.0
+ Ball 1: Location =  (66.138, 66.138)  Velocity of Object =  < 0.439, 0.439 >  ft/sec on an x and y plane
+83.0
+WHEN It's 0.0:1.0:23.0
+ Ball 1: Location =  (66.577, 66.577)  Velocity of Object =  < 0.434, 0.434 >  ft/sec on an x and y plane
+84.0
+WHEN It's 0.0:1.0:24.0
+ Ball 1: Location =  (67.011, 67.011)  Velocity of Object =  < 0.430, 0.430 >  ft/sec on an x and y plane
+85.0
+WHEN It's 0.0:1.0:25.0
+ Ball 1: Location =  (67.441, 67.441)  Velocity of Object =  < 0.426, 0.426 >  ft/sec on an x and y plane
+86.0
+WHEN It's 0.0:1.0:26.0
+ Ball 1: Location =  (67.867, 67.867)  Velocity of Object =  < 0.421, 0.421 >  ft/sec on an x and y plane
+87.0
+WHEN It's 0.0:1.0:27.0
+ Ball 1: Location =  (68.288, 68.288)  Velocity of Object =  < 0.417, 0.417 >  ft/sec on an x and y plane
+88.0
+WHEN It's 0.0:1.0:28.0
+ Ball 1: Location =  (68.705, 68.705)  Velocity of Object =  < 0.413, 0.413 >  ft/sec on an x and y plane
+89.0
+WHEN It's 0.0:1.0:29.0
+ Ball 1: Location =  (69.118, 69.118)  Velocity of Object =  < 0.409, 0.409 >  ft/sec on an x and y plane
+90.0
+WHEN It's 0.0:1.0:30.0
+ Ball 1: Location =  (69.527, 69.527)  Velocity of Object =  < 0.405, 0.405 >  ft/sec on an x and y plane
+91.0
+WHEN It's 0.0:1.0:31.0
+ Ball 1: Location =  (69.932, 69.932)  Velocity of Object =  < 0.401, 0.401 >  ft/sec on an x and y plane
+92.0
+WHEN It's 0.0:1.0:32.0
+ Ball 1: Location =  (70.332, 70.332)  Velocity of Object =  < 0.397, 0.397 >  ft/sec on an x and y plane
+93.0
+WHEN It's 0.0:1.0:33.0
+ Ball 1: Location =  (70.729, 70.729)  Velocity of Object =  < 0.393, 0.393 >  ft/sec on an x and y plane
+94.0
+WHEN It's 0.0:1.0:34.0
+ Ball 1: Location =  (71.122, 71.122)  Velocity of Object =  < 0.389, 0.389 >  ft/sec on an x and y plane
+95.0
+WHEN It's 0.0:1.0:35.0
+ Ball 1: Location =  (71.510, 71.510)  Velocity of Object =  < 0.385, 0.385 >  ft/sec on an x and y plane
+96.0
+WHEN It's 0.0:1.0:36.0
+ Ball 1: Location =  (71.895, 71.895)  Velocity of Object =  < 0.381, 0.381 >  ft/sec on an x and y plane
+97.0
+WHEN It's 0.0:1.0:37.0
+ Ball 1: Location =  (72.276, 72.276)  Velocity of Object =  < 0.377, 0.377 >  ft/sec on an x and y plane
+98.0
+WHEN It's 0.0:1.0:38.0
+ Ball 1: Location =  (72.654, 72.654)  Velocity of Object =  < 0.373, 0.373 >  ft/sec on an x and y plane
+99.0
+WHEN It's 0.0:1.0:39.0
+ Ball 1: Location =  (73.027, 73.027)  Velocity of Object =  < 0.370, 0.370 >  ft/sec on an x and y plane
+100.0
+WHEN It's 0.0:1.0:40.0
+ Ball 1: Location =  (73.397, 73.397)  Velocity of Object =  < 0.366, 0.366 >  ft/sec on an x and y plane
+101.0
+WHEN It's 0.0:1.0:41.0
+ Ball 1: Location =  (73.763, 73.763)  Velocity of Object =  < 0.362, 0.362 >  ft/sec on an x and y plane
+102.0
+WHEN It's 0.0:1.0:42.0
+ Ball 1: Location =  (74.125, 74.125)  Velocity of Object =  < 0.359, 0.359 >  ft/sec on an x and y plane
+103.0
+WHEN It's 0.0:1.0:43.0
+ Ball 1: Location =  (74.484, 74.484)  Velocity of Object =  < 0.355, 0.355 >  ft/sec on an x and y plane
+104.0
+WHEN It's 0.0:1.0:44.0
+ Ball 1: Location =  (74.839, 74.839)  Velocity of Object =  < 0.352, 0.352 >  ft/sec on an x and y plane
+105.0
+WHEN It's 0.0:1.0:45.0
+ Ball 1: Location =  (75.191, 75.191)  Velocity of Object =  < 0.348, 0.348 >  ft/sec on an x and y plane
+106.0
+WHEN It's 0.0:1.0:46.0
+ Ball 1: Location =  (75.539, 75.539)  Velocity of Object =  < 0.345, 0.345 >  ft/sec on an x and y plane
+107.0
+WHEN It's 0.0:1.0:47.0
+ Ball 1: Location =  (75.883, 75.883)  Velocity of Object =  < 0.341, 0.341 >  ft/sec on an x and y plane
+108.0
+WHEN It's 0.0:1.0:48.0
+ Ball 1: Location =  (76.225, 76.225)  Velocity of Object =  < 0.338, 0.338 >  ft/sec on an x and y plane
+109.0
+WHEN It's 0.0:1.0:49.0
+ Ball 1: Location =  (76.562, 76.562)  Velocity of Object =  < 0.334, 0.334 >  ft/sec on an x and y plane
+110.0
+WHEN It's 0.0:1.0:50.0
+ Ball 1: Location =  (76.897, 76.897)  Velocity of Object =  < 0.331, 0.331 >  ft/sec on an x and y plane
+111.0
+WHEN It's 0.0:1.0:51.0
+ Ball 1: Location =  (77.228, 77.228)  Velocity of Object =  < 0.328, 0.328 >  ft/sec on an x and y plane
+112.0
+WHEN It's 0.0:1.0:52.0
+ Ball 1: Location =  (77.555, 77.555)  Velocity of Object =  < 0.324, 0.324 >  ft/sec on an x and y plane
+113.0
+WHEN It's 0.0:1.0:53.0
+ Ball 1: Location =  (77.880, 77.880)  Velocity of Object =  < 0.321, 0.321 >  ft/sec on an x and y plane
+114.0
+WHEN It's 0.0:1.0:54.0
+ Ball 1: Location =  (78.201, 78.201)  Velocity of Object =  < 0.318, 0.318 >  ft/sec on an x and y plane
+115.0
+WHEN It's 0.0:1.0:55.0
+ Ball 1: Location =  (78.519, 78.519)  Velocity of Object =  < 0.315, 0.315 >  ft/sec on an x and y plane
+116.0
+WHEN It's 0.0:1.0:56.0
+ Ball 1: Location =  (78.834, 78.834)  Velocity of Object =  < 0.312, 0.312 >  ft/sec on an x and y plane
+117.0
+WHEN It's 0.0:1.0:57.0
+ Ball 1: Location =  (79.146, 79.146)  Velocity of Object =  < 0.309, 0.309 >  ft/sec on an x and y plane
+118.0
+WHEN It's 0.0:1.0:58.0
+ Ball 1: Location =  (79.454, 79.454)  Velocity of Object =  < 0.305, 0.305 >  ft/sec on an x and y plane
+119.0
+WHEN It's 0.0:1.0:59.0
+ Ball 1: Location =  (79.760, 79.760)  Velocity of Object =  < 0.302, 0.302 >  ft/sec on an x and y plane
+120.0
+WHEN It's 0.0:2.0:0.0
+ Ball 1: Location =  (80.062, 80.062)  Velocity of Object =  < 0.299, 0.299 >  ft/sec on an x and y plane
+121.0
+WHEN It's 0.0:2.0:1.0
+ Ball 1: Location =  (80.361, 80.361)  Velocity of Object =  < 0.296, 0.296 >  ft/sec on an x and y plane
+122.0
+WHEN It's 0.0:2.0:2.0
+ Ball 1: Location =  (80.658, 80.658)  Velocity of Object =  < 0.293, 0.293 >  ft/sec on an x and y plane
+123.0
+WHEN It's 0.0:2.0:3.0
+ Ball 1: Location =  (80.951, 80.951)  Velocity of Object =  < 0.290, 0.290 >  ft/sec on an x and y plane
+124.0
+WHEN It's 0.0:2.0:4.0
+ Ball 1: Location =  (81.242, 81.242)  Velocity of Object =  < 0.288, 0.288 >  ft/sec on an x and y plane
+125.0
+WHEN It's 0.0:2.0:5.0
+ Ball 1: Location =  (81.529, 81.529)  Velocity of Object =  < 0.285, 0.285 >  ft/sec on an x and y plane
+126.0
+WHEN It's 0.0:2.0:6.0
+ Ball 1: Location =  (81.814, 81.814)  Velocity of Object =  < 0.282, 0.282 >  ft/sec on an x and y plane
+127.0
+WHEN It's 0.0:2.0:7.0
+ Ball 1: Location =  (82.096, 82.096)  Velocity of Object =  < 0.279, 0.279 >  ft/sec on an x and y plane
+128.0
+WHEN It's 0.0:2.0:8.0
+ Ball 1: Location =  (82.375, 82.375)  Velocity of Object =  < 0.276, 0.276 >  ft/sec on an x and y plane
+129.0
+WHEN It's 0.0:2.0:9.0
+ Ball 1: Location =  (82.651, 82.651)  Velocity of Object =  < 0.273, 0.273 >  ft/sec on an x and y plane
+130.0
+WHEN It's 0.0:2.0:10.0
+ Ball 1: Location =  (82.925, 82.925)  Velocity of Object =  < 0.271, 0.271 >  ft/sec on an x and y plane
+131.0
+WHEN It's 0.0:2.0:11.0
+ Ball 1: Location =  (83.195, 83.195)  Velocity of Object =  < 0.268, 0.268 >  ft/sec on an x and y plane
+132.0
+WHEN It's 0.0:2.0:12.0
+ Ball 1: Location =  (83.463, 83.463)  Velocity of Object =  < 0.265, 0.265 >  ft/sec on an x and y plane
+133.0
+WHEN It's 0.0:2.0:13.0
+ Ball 1: Location =  (83.729, 83.729)  Velocity of Object =  < 0.263, 0.263 >  ft/sec on an x and y plane
+134.0
+WHEN It's 0.0:2.0:14.0
+ Ball 1: Location =  (83.991, 83.991)  Velocity of Object =  < 0.260, 0.260 >  ft/sec on an x and y plane
+135.0
+WHEN It's 0.0:2.0:15.0
+ Ball 1: Location =  (84.252, 84.252)  Velocity of Object =  < 0.257, 0.257 >  ft/sec on an x and y plane
+136.0
+WHEN It's 0.0:2.0:16.0
+ Ball 1: Location =  (84.509, 84.509)  Velocity of Object =  < 0.255, 0.255 >  ft/sec on an x and y plane
+137.0
+WHEN It's 0.0:2.0:17.0
+ Ball 1: Location =  (84.764, 84.764)  Velocity of Object =  < 0.252, 0.252 >  ft/sec on an x and y plane
+138.0
+WHEN It's 0.0:2.0:18.0
+ Ball 1: Location =  (85.016, 85.016)  Velocity of Object =  < 0.250, 0.250 >  ft/sec on an x and y plane
+139.0
+WHEN It's 0.0:2.0:19.0
+ Ball 1: Location =  (85.266, 85.266)  Velocity of Object =  < 0.247, 0.247 >  ft/sec on an x and y plane
+140.0
+WHEN It's 0.0:2.0:20.0
+ Ball 1: Location =  (85.513, 85.513)  Velocity of Object =  < 0.245, 0.245 >  ft/sec on an x and y plane
+141.0
+WHEN It's 0.0:2.0:21.0
+ Ball 1: Location =  (85.758, 85.758)  Velocity of Object =  < 0.242, 0.242 >  ft/sec on an x and y plane
+142.0
+WHEN It's 0.0:2.0:22.0
+ Ball 1: Location =  (86.001, 86.001)  Velocity of Object =  < 0.240, 0.240 >  ft/sec on an x and y plane
+143.0
+WHEN It's 0.0:2.0:23.0
+ Ball 1: Location =  (86.241, 86.241)  Velocity of Object =  < 0.238, 0.238 >  ft/sec on an x and y plane
+144.0
+WHEN It's 0.0:2.0:24.0
+ Ball 1: Location =  (86.478, 86.478)  Velocity of Object =  < 0.235, 0.235 >  ft/sec on an x and y plane
+145.0
+WHEN It's 0.0:2.0:25.0
+ Ball 1: Location =  (86.714, 86.714)  Velocity of Object =  < 0.233, 0.233 >  ft/sec on an x and y plane
+146.0
+WHEN It's 0.0:2.0:26.0
+ Ball 1: Location =  (86.946, 86.946)  Velocity of Object =  < 0.231, 0.231 >  ft/sec on an x and y plane
+147.0
+WHEN It's 0.0:2.0:27.0
+ Ball 1: Location =  (87.177, 87.177)  Velocity of Object =  < 0.228, 0.228 >  ft/sec on an x and y plane
+148.0
+WHEN It's 0.0:2.0:28.0
+ Ball 1: Location =  (87.405, 87.405)  Velocity of Object =  < 0.226, 0.226 >  ft/sec on an x and y plane
+149.0
+WHEN It's 0.0:2.0:29.0
+ Ball 1: Location =  (87.631, 87.631)  Velocity of Object =  < 0.224, 0.224 >  ft/sec on an x and y plane
+150.0
+WHEN It's 0.0:2.0:30.0
+ Ball 1: Location =  (87.855, 87.855)  Velocity of Object =  < 0.221, 0.221 >  ft/sec on an x and y plane
+151.0
+WHEN It's 0.0:2.0:31.0
+ Ball 1: Location =  (88.076, 88.076)  Velocity of Object =  < 0.219, 0.219 >  ft/sec on an x and y plane
+152.0
+WHEN It's 0.0:2.0:32.0
+ Ball 1: Location =  (88.296, 88.296)  Velocity of Object =  < 0.217, 0.217 >  ft/sec on an x and y plane
+153.0
+WHEN It's 0.0:2.0:33.0
+ Ball 1: Location =  (88.513, 88.513)  Velocity of Object =  < 0.215, 0.215 >  ft/sec on an x and y plane
+154.0
+WHEN It's 0.0:2.0:34.0
+ Ball 1: Location =  (88.727, 88.727)  Velocity of Object =  < 0.213, 0.213 >  ft/sec on an x and y plane
+155.0
+WHEN It's 0.0:2.0:35.0
+ Ball 1: Location =  (88.940, 88.940)  Velocity of Object =  < 0.211, 0.211 >  ft/sec on an x and y plane
+156.0
+WHEN It's 0.0:2.0:36.0
+ Ball 1: Location =  (89.151, 89.151)  Velocity of Object =  < 0.208, 0.208 >  ft/sec on an x and y plane
+157.0
+WHEN It's 0.0:2.0:37.0
+ Ball 1: Location =  (89.359, 89.359)  Velocity of Object =  < 0.206, 0.206 >  ft/sec on an x and y plane
+158.0
+WHEN It's 0.0:2.0:38.0
+ Ball 1: Location =  (89.566, 89.566)  Velocity of Object =  < 0.204, 0.204 >  ft/sec on an x and y plane
+159.0
+WHEN It's 0.0:2.0:39.0
+ Ball 1: Location =  (89.770, 89.770)  Velocity of Object =  < 0.202, 0.202 >  ft/sec on an x and y plane
+160.0
+WHEN It's 0.0:2.0:40.0
+ Ball 1: Location =  (89.972, 89.972)  Velocity of Object =  < 0.200, 0.200 >  ft/sec on an x and y plane
+161.0
+WHEN It's 0.0:2.0:41.0
+ Ball 1: Location =  (90.173, 90.173)  Velocity of Object =  < 0.198, 0.198 >  ft/sec on an x and y plane
+162.0
+WHEN It's 0.0:2.0:42.0
+ Ball 1: Location =  (90.371, 90.371)  Velocity of Object =  < 0.196, 0.196 >  ft/sec on an x and y plane
+163.0
+WHEN It's 0.0:2.0:43.0
+ Ball 1: Location =  (90.567, 90.567)  Velocity of Object =  < 0.194, 0.194 >  ft/sec on an x and y plane
+164.0
+WHEN It's 0.0:2.0:44.0
+ Ball 1: Location =  (90.761, 90.761)  Velocity of Object =  < 0.192, 0.192 >  ft/sec on an x and y plane
+165.0
+WHEN It's 0.0:2.0:45.0
+ Ball 1: Location =  (90.954, 90.954)  Velocity of Object =  < 0.190, 0.190 >  ft/sec on an x and y plane
+166.0
+WHEN It's 0.0:2.0:46.0
+ Ball 1: Location =  (91.144, 91.144)  Velocity of Object =  < 0.189, 0.189 >  ft/sec on an x and y plane
+167.0
+WHEN It's 0.0:2.0:47.0
+ Ball 1: Location =  (91.333, 91.333)  Velocity of Object =  < 0.187, 0.187 >  ft/sec on an x and y plane
+168.0
+WHEN It's 0.0:2.0:48.0
+ Ball 1: Location =  (91.520, 91.520)  Velocity of Object =  < 0.185, 0.185 >  ft/sec on an x and y plane
+169.0
+WHEN It's 0.0:2.0:49.0
+ Ball 1: Location =  (91.704, 91.704)  Velocity of Object =  < 0.183, 0.183 >  ft/sec on an x and y plane
+170.0
+WHEN It's 0.0:2.0:50.0
+ Ball 1: Location =  (91.887, 91.887)  Velocity of Object =  < 0.181, 0.181 >  ft/sec on an x and y plane
+171.0
+WHEN It's 0.0:2.0:51.0
+ Ball 1: Location =  (92.068, 92.068)  Velocity of Object =  < 0.179, 0.179 >  ft/sec on an x and y plane
+172.0
+WHEN It's 0.0:2.0:52.0
+ Ball 1: Location =  (92.248, 92.248)  Velocity of Object =  < 0.178, 0.178 >  ft/sec on an x and y plane
+173.0
+WHEN It's 0.0:2.0:53.0
+ Ball 1: Location =  (92.425, 92.425)  Velocity of Object =  < 0.176, 0.176 >  ft/sec on an x and y plane
+174.0
+WHEN It's 0.0:2.0:54.0
+ Ball 1: Location =  (92.601, 92.601)  Velocity of Object =  < 0.174, 0.174 >  ft/sec on an x and y plane
+175.0
+WHEN It's 0.0:2.0:55.0
+ Ball 1: Location =  (92.775, 92.775)  Velocity of Object =  < 0.172, 0.172 >  ft/sec on an x and y plane
+176.0
+WHEN It's 0.0:2.0:56.0
+ Ball 1: Location =  (92.947, 92.947)  Velocity of Object =  < 0.171, 0.171 >  ft/sec on an x and y plane
+177.0
+WHEN It's 0.0:2.0:57.0
+ Ball 1: Location =  (93.118, 93.118)  Velocity of Object =  < 0.169, 0.169 >  ft/sec on an x and y plane
+178.0
+WHEN It's 0.0:2.0:58.0
+ Ball 1: Location =  (93.287, 93.287)  Velocity of Object =  < 0.167, 0.167 >  ft/sec on an x and y plane
+179.0
+WHEN It's 0.0:2.0:59.0
+ Ball 1: Location =  (93.454, 93.454)  Velocity of Object =  < 0.165, 0.165 >  ft/sec on an x and y plane
+180.0
+WHEN It's 0.0:3.0:0.0
+ Ball 1: Location =  (93.619, 93.619)  Velocity of Object =  < 0.164, 0.164 >  ft/sec on an x and y plane
+181.0
+WHEN It's 0.0:3.0:1.0
+ Ball 1: Location =  (93.783, 93.783)  Velocity of Object =  < 0.162, 0.162 >  ft/sec on an x and y plane
+182.0
+WHEN It's 0.0:3.0:2.0
+ Ball 1: Location =  (93.945, 93.945)  Velocity of Object =  < 0.161, 0.161 >  ft/sec on an x and y plane
+183.0
+WHEN It's 0.0:3.0:3.0
+ Ball 1: Location =  (94.106, 94.106)  Velocity of Object =  < 0.159, 0.159 >  ft/sec on an x and y plane
+184.0
+WHEN It's 0.0:3.0:4.0
+ Ball 1: Location =  (94.265, 94.265)  Velocity of Object =  < 0.157, 0.157 >  ft/sec on an x and y plane
+185.0
+WHEN It's 0.0:3.0:5.0
+ Ball 1: Location =  (94.422, 94.422)  Velocity of Object =  < 0.156, 0.156 >  ft/sec on an x and y plane
+186.0
+WHEN It's 0.0:3.0:6.0
+ Ball 1: Location =  (94.578, 94.578)  Velocity of Object =  < 0.154, 0.154 >  ft/sec on an x and y plane
+187.0
+WHEN It's 0.0:3.0:7.0
+ Ball 1: Location =  (94.732, 94.732)  Velocity of Object =  < 0.153, 0.153 >  ft/sec on an x and y plane
+188.0
+WHEN It's 0.0:3.0:8.0
+ Ball 1: Location =  (94.885, 94.885)  Velocity of Object =  < 0.151, 0.151 >  ft/sec on an x and y plane
+189.0
+WHEN It's 0.0:3.0:9.0
+ Ball 1: Location =  (95.036, 95.036)  Velocity of Object =  < 0.150, 0.150 >  ft/sec on an x and y plane
+190.0
+WHEN It's 0.0:3.0:10.0
+ Ball 1: Location =  (95.186, 95.186)  Velocity of Object =  < 0.148, 0.148 >  ft/sec on an x and y plane
+191.0
+WHEN It's 0.0:3.0:11.0
+ Ball 1: Location =  (95.334, 95.334)  Velocity of Object =  < 0.147, 0.147 >  ft/sec on an x and y plane
+192.0
+WHEN It's 0.0:3.0:12.0
+ Ball 1: Location =  (95.480, 95.480)  Velocity of Object =  < 0.145, 0.145 >  ft/sec on an x and y plane
+193.0
+WHEN It's 0.0:3.0:13.0
+ Ball 1: Location =  (95.626, 95.626)  Velocity of Object =  < 0.144, 0.144 >  ft/sec on an x and y plane
+194.0
+WHEN It's 0.0:3.0:14.0
+ Ball 1: Location =  (95.769, 95.769)  Velocity of Object =  < 0.142, 0.142 >  ft/sec on an x and y plane
+195.0
+WHEN It's 0.0:3.0:15.0
+ Ball 1: Location =  (95.912, 95.912)  Velocity of Object =  < 0.141, 0.141 >  ft/sec on an x and y plane
+196.0
+WHEN It's 0.0:3.0:16.0
+ Ball 1: Location =  (96.052, 96.052)  Velocity of Object =  < 0.139, 0.139 >  ft/sec on an x and y plane
+197.0
+WHEN It's 0.0:3.0:17.0
+ Ball 1: Location =  (96.192, 96.192)  Velocity of Object =  < 0.138, 0.138 >  ft/sec on an x and y plane
+198.0
+WHEN It's 0.0:3.0:18.0
+ Ball 1: Location =  (96.330, 96.330)  Velocity of Object =  < 0.137, 0.137 >  ft/sec on an x and y plane
+199.0
+WHEN It's 0.0:3.0:19.0
+ Ball 1: Location =  (96.467, 96.467)  Velocity of Object =  < 0.135, 0.135 >  ft/sec on an x and y plane
+200.0
+WHEN It's 0.0:3.0:20.0
+ Ball 1: Location =  (96.602, 96.602)  Velocity of Object =  < 0.134, 0.134 >  ft/sec on an x and y plane
+201.0
+WHEN It's 0.0:3.0:21.0
+ Ball 1: Location =  (96.736, 96.736)  Velocity of Object =  < 0.133, 0.133 >  ft/sec on an x and y plane
+202.0
+WHEN It's 0.0:3.0:22.0
+ Ball 1: Location =  (96.869, 96.869)  Velocity of Object =  < 0.131, 0.131 >  ft/sec on an x and y plane
+203.0
+WHEN It's 0.0:3.0:23.0
+ Ball 1: Location =  (97.000, 97.000)  Velocity of Object =  < 0.130, 0.130 >  ft/sec on an x and y plane
+204.0
+WHEN It's 0.0:3.0:24.0
+ Ball 1: Location =  (97.130, 97.130)  Velocity of Object =  < 0.129, 0.129 >  ft/sec on an x and y plane
+205.0
+WHEN It's 0.0:3.0:25.0
+ Ball 1: Location =  (97.259, 97.259)  Velocity of Object =  < 0.127, 0.127 >  ft/sec on an x and y plane
+206.0
+WHEN It's 0.0:3.0:26.0
+ Ball 1: Location =  (97.386, 97.386)  Velocity of Object =  < 0.126, 0.126 >  ft/sec on an x and y plane
+207.0
+WHEN It's 0.0:3.0:27.0
+ Ball 1: Location =  (97.512, 97.512)  Velocity of Object =  < 0.125, 0.125 >  ft/sec on an x and y plane
+208.0
+WHEN It's 0.0:3.0:28.0
+ Ball 1: Location =  (97.637, 97.637)  Velocity of Object =  < 0.124, 0.124 >  ft/sec on an x and y plane
+209.0
+WHEN It's 0.0:3.0:29.0
+ Ball 1: Location =  (97.761, 97.761)  Velocity of Object =  < 0.122, 0.122 >  ft/sec on an x and y plane
+210.0
+WHEN It's 0.0:3.0:30.0
+ Ball 1: Location =  (97.883, 97.883)  Velocity of Object =  < 0.121, 0.121 >  ft/sec on an x and y plane
+211.0
+WHEN It's 0.0:3.0:31.0
+ Ball 1: Location =  (98.004, 98.004)  Velocity of Object =  < 0.120, 0.120 >  ft/sec on an x and y plane
+212.0
+WHEN It's 0.0:3.0:32.0
+ Ball 1: Location =  (98.124, 98.124)  Velocity of Object =  < 0.119, 0.119 >  ft/sec on an x and y plane
+213.0
+WHEN It's 0.0:3.0:33.0
+ Ball 1: Location =  (98.243, 98.243)  Velocity of Object =  < 0.118, 0.118 >  ft/sec on an x and y plane
+214.0
+WHEN It's 0.0:3.0:34.0
+ Ball 1: Location =  (98.361, 98.361)  Velocity of Object =  < 0.116, 0.116 >  ft/sec on an x and y plane
+215.0
+WHEN It's 0.0:3.0:35.0
+ Ball 1: Location =  (98.477, 98.477)  Velocity of Object =  < 0.115, 0.115 >  ft/sec on an x and y plane
+216.0
+WHEN It's 0.0:3.0:36.0
+ Ball 1: Location =  (98.592, 98.592)  Velocity of Object =  < 0.114, 0.114 >  ft/sec on an x and y plane
+217.0
+WHEN It's 0.0:3.0:37.0
+ Ball 1: Location =  (98.706, 98.706)  Velocity of Object =  < 0.113, 0.113 >  ft/sec on an x and y plane
+218.0
+WHEN It's 0.0:3.0:38.0
+ Ball 1: Location =  (98.819, 98.819)  Velocity of Object =  < 0.112, 0.112 >  ft/sec on an x and y plane
+219.0
+WHEN It's 0.0:3.0:39.0
+ Ball 1: Location =  (98.931, 98.931)  Velocity of Object =  < 0.111, 0.111 >  ft/sec on an x and y plane
+220.0
+WHEN It's 0.0:3.0:40.0
+ Ball 1: Location =  (99.042, 99.042)  Velocity of Object =  < 0.110, 0.110 >  ft/sec on an x and y plane
+221.0
+WHEN It's 0.0:3.0:41.0
+ Ball 1: Location =  (99.151, 99.151)  Velocity of Object =  < 0.108, 0.108 >  ft/sec on an x and y plane
+222.0
+WHEN It's 0.0:3.0:42.0
+ Ball 1: Location =  (99.260, 99.260)  Velocity of Object =  < 0.107, 0.107 >  ft/sec on an x and y plane
+223.0
+WHEN It's 0.0:3.0:43.0
+ Ball 1: Location =  (99.367, 99.367)  Velocity of Object =  < 0.106, 0.106 >  ft/sec on an x and y plane
+224.0
+WHEN It's 0.0:3.0:44.0
+ Ball 1: Location =  (99.474, 99.474)  Velocity of Object =  < 0.105, 0.105 >  ft/sec on an x and y plane
+225.0
+WHEN It's 0.0:3.0:45.0
+ Ball 1: Location =  (99.579, 99.579)  Velocity of Object =  < 0.104, 0.104 >  ft/sec on an x and y plane
+226.0
+WHEN It's 0.0:3.0:46.0
+ Ball 1: Location =  (99.683, 99.683)  Velocity of Object =  < 0.103, 0.103 >  ft/sec on an x and y plane
+227.0
+WHEN It's 0.0:3.0:47.0
+ Ball 1: Location =  (99.786, 99.786)  Velocity of Object =  < 0.102, 0.102 >  ft/sec on an x and y plane
+228.0
+WHEN It's 0.0:3.0:48.0
+ Ball 1: Location =  (99.888, 99.888)  Velocity of Object =  < 0.101, 0.101 >  ft/sec on an x and y plane
+229.0
+WHEN It's 0.0:3.0:49.0
+ Ball 1: Location =  (99.989, 99.989)  Velocity of Object =  < 0.100, 0.100 >  ft/sec on an x and y plane
+230.0
+WHEN It's 0.0:3.0:50.0
+ Ball 1: Location =  (100.090, 100.090)  Velocity of Object =  < 0.099, 0.099 >  ft/sec on an x and y plane
+231.0
+WHEN It's 0.0:3.0:51.0
+ Ball 1: Location =  (100.189, 100.189)  Velocity of Object =  < 0.098, 0.098 >  ft/sec on an x and y plane
+232.0
+WHEN It's 0.0:3.0:52.0
+ Ball 1: Location =  (100.287, 100.287)  Velocity of Object =  < 0.097, 0.097 >  ft/sec on an x and y plane
+233.0
+WHEN It's 0.0:3.0:53.0
+ Ball 1: Location =  (100.384, 100.384)  Velocity of Object =  < 0.096, 0.096 >  ft/sec on an x and y plane
+234.0
+WHEN It's 0.0:3.0:54.0
+ Ball 1: Location =  (100.480, 100.480)  Velocity of Object =  < 0.095, 0.095 >  ft/sec on an x and y plane
+235.0
+WHEN It's 0.0:3.0:55.0
+ Ball 1: Location =  (100.575, 100.575)  Velocity of Object =  < 0.094, 0.094 >  ft/sec on an x and y plane
+236.0
+WHEN It's 0.0:3.0:56.0
+ Ball 1: Location =  (100.669, 100.669)  Velocity of Object =  < 0.093, 0.093 >  ft/sec on an x and y plane
+237.0
+WHEN It's 0.0:3.0:57.0
+ Ball 1: Location =  (100.763, 100.763)  Velocity of Object =  < 0.092, 0.092 >  ft/sec on an x and y plane
+238.0
+WHEN It's 0.0:3.0:58.0
+ Ball 1: Location =  (100.855, 100.855)  Velocity of Object =  < 0.091, 0.091 >  ft/sec on an x and y plane
+239.0
+WHEN It's 0.0:3.0:59.0
+ Ball 1: Location =  (100.947, 100.947)  Velocity of Object =  < 0.091, 0.091 >  ft/sec on an x and y plane
+240.0
+WHEN It's 0.0:4.0:0.0
+ Ball 1: Location =  (101.037, 101.037)  Velocity of Object =  < 0.090, 0.090 >  ft/sec on an x and y plane
+241.0
+WHEN It's 0.0:4.0:1.0
+ Ball 1: Location =  (101.127, 101.127)  Velocity of Object =  < 0.089, 0.089 >  ft/sec on an x and y plane
+242.0
+WHEN It's 0.0:4.0:2.0
+ Ball 1: Location =  (101.215, 101.215)  Velocity of Object =  < 0.088, 0.088 >  ft/sec on an x and y plane
+243.0
+WHEN It's 0.0:4.0:3.0
+ Ball 1: Location =  (101.303, 101.303)  Velocity of Object =  < 0.087, 0.087 >  ft/sec on an x and y plane
+244.0
+WHEN It's 0.0:4.0:4.0
+ Ball 1: Location =  (101.390, 101.390)  Velocity of Object =  < 0.086, 0.086 >  ft/sec on an x and y plane
+245.0
+WHEN It's 0.0:4.0:5.0
+ Ball 1: Location =  (101.476, 101.476)  Velocity of Object =  < 0.085, 0.085 >  ft/sec on an x and y plane
+246.0
+WHEN It's 0.0:4.0:6.0
+ Ball 1: Location =  (101.562, 101.562)  Velocity of Object =  < 0.084, 0.084 >  ft/sec on an x and y plane
+247.0
+WHEN It's 0.0:4.0:7.0
+ Ball 1: Location =  (101.646, 101.646)  Velocity of Object =  < 0.084, 0.084 >  ft/sec on an x and y plane
+248.0
+WHEN It's 0.0:4.0:8.0
+ Ball 1: Location =  (101.730, 101.730)  Velocity of Object =  At rest 
+
+ THE PROGRAM HAS ENDED... TRY SOME DIFFERENT NUMBERS
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim check for collision...
+...   Should collide at about 5 seconds   
+======================================  
+
+ THE FIELD SIZE IS 360 by 240 
+ Testing for collision with a 1.00 second time slice 
+ There is a pole at Location =  (123.895, -105.353)  Velocity of Object =  At rest 
+0.0
+WHEN It's 0.0:0.0:0.0
+ Ball 1: Location =  (10.000, 10.000)  Velocity of Object =  < 1.000, 1.000 >  ft/sec on an x and y plane
+ Ball 2: Location =  (20.000, 20.000)  Velocity of Object =  < -1.000, -1.000 >  ft/sec on an x and y plane
+1.0
+WHEN It's 0.0:0.0:1.0
+ Ball 1: Location =  (11.000, 11.000)  Velocity of Object =  < 0.990, 0.990 >  ft/sec on an x and y plane
+ Ball 2: Location =  (19.000, 19.000)  Velocity of Object =  < -0.990, -0.990 >  ft/sec on an x and y plane
+2.0
+WHEN It's 0.0:0.0:2.0
+ Ball 1: Location =  (11.990, 11.990)  Velocity of Object =  < 0.980, 0.980 >  ft/sec on an x and y plane
+ Ball 2: Location =  (18.010, 18.010)  Velocity of Object =  < -0.980, -0.980 >  ft/sec on an x and y plane
+3.0
+WHEN It's 0.0:0.0:3.0
+ Ball 1: Location =  (12.970, 12.970)  Velocity of Object =  < 0.970, 0.970 >  ft/sec on an x and y plane
+ Ball 2: Location =  (17.030, 17.030)  Velocity of Object =  < -0.970, -0.970 >  ft/sec on an x and y plane
+4.0
+WHEN It's 0.0:0.0:4.0
+ Ball 1: Location =  (13.940, 13.940)  Velocity of Object =  < 0.961, 0.961 >  ft/sec on an x and y plane
+ Ball 2: Location =  (16.060, 16.060)  Velocity of Object =  < -0.961, -0.961 >  ft/sec on an x and y plane
+5.0
+WHEN It's 0.0:0.0:5.0
+ Ball 1: Location =  (14.901, 14.901)  Velocity of Object =  < 0.951, 0.951 >  ft/sec on an x and y plane
+ Ball 2: Location =  (15.099, 15.099)  Velocity of Object =  < -0.951, -0.951 >  ft/sec on an x and y plane
+
+ Ball 1 has had a collision with ball 2
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball should go out of bounds...
+...   Speed *should* kick it out quickly  
+======================================  
+
+ THE FIELD SIZE IS 360 by 240 
+ Testing for collision with a 1.00 second time slice 
+ There is a pole at Location =  (77.497, -90.834)  Velocity of Object =  At rest 
+0.0
+WHEN It's 0.0:0.0:0.0
+ Ball 1: Location =  (10.000, 10.000)  Velocity of Object =  < 1000.000, 1000.000 >  ft/sec on an x and y plane
+1.0
+WHEN It's 0.0:0.0:1.0
+ Ball 1: Location = Sadly.. out of bounds!  Velocity of Object =  < 990.000, 990.000 >  ft/sec on an x and y plane
+
+ THE PROGRAM HAS ENDED... TRY SOME DIFFERENT NUMBERS
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball set six balls subsecond time slice...
+...   Should collide Ball 1 and 4 in less than 1 sec  
+======================================  
+
+ THE FIELD SIZE IS 360 by 240 
+ Testing for collision with a 0.10 second time slice 
+ There is a pole at Location =  (-107.254, 98.325)  Velocity of Object =  At rest 
+0.0
+WHEN It's 0.0:0.0:0.0
+ Ball 1: Location =  (20.000, 20.000)  Velocity of Object =  < 10.000, 10.000 >  ft/sec on an x and y plane
+ Ball 2: Location =  (100.000, 100.000)  Velocity of Object =  < -100.000, -100.000 >  ft/sec on an x and y plane
+ Ball 3: Location =  (110.000, 110.000)  Velocity of Object =  < 200.000, 200.000 >  ft/sec on an x and y plane
+ Ball 4: Location =  (75.000, 75.000)  Velocity of Object =  < -110.000, -110.000 >  ft/sec on an x and y plane
+ Ball 5: Location =  (20.000, 20.000)  Velocity of Object =  < 1.000, 1.000 >  ft/sec on an x and y plane
+ Ball 6: Location =  (50.000, 50.000)  Velocity of Object =  < -5.000, -5.000 >  ft/sec on an x and y plane
+
+ Ball 1 has had a collision with ball 5
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball set five balls 1.234 second time slice...
+...   Should say "not possible @ 13:29.5"  
+======================================  
+
+ THE FIELD SIZE IS 360 by 240 
+ Testing for collision with a 1.23 second time slice 
+ There is a pole at Location =  (44.359, -24.942)  Velocity of Object =  At rest 
+0.0
+WHEN It's 0.0:0.0:0.0
+ Ball 1: Location =  (20.000, 20.000)  Velocity of Object =  < 10.000, 10.000 >  ft/sec on an x and y plane
+ Ball 2: Location =  (100.000, 100.000)  Velocity of Object =  < -100.000, -100.000 >  ft/sec on an x and y plane
+ Ball 3: Location =  (110.000, 110.000)  Velocity of Object =  < 200.000, 200.000 >  ft/sec on an x and y plane
+ Ball 4: Location =  (75.000, 75.000)  Velocity of Object =  < -110.000, -110.000 >  ft/sec on an x and y plane
+ Ball 5: Location =  (20.000, 20.000)  Velocity of Object =  < 1.000, 1.000 >  ft/sec on an x and y plane
+ Ball 6: Location =  (50.000, 50.000)  Velocity of Object =  < -5.000, -5.000 >  ft/sec on an x and y plane
+
+ Ball 1 has had a collision with ball 5
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball set ten balls 10 second time slice...
+...   Should contact ball 1 and 8 @ 30 sec  
+======================================  
+
+ THE FIELD SIZE IS 360 by 240 
+ Testing for collision with a 10.00 second time slice 
+ There is a pole at Location =  (37.718, -78.609)  Velocity of Object =  At rest 
+0.0
+WHEN It's 0.0:0.0:0.0
+ Ball 1: Location =  (150.000, 100.000)  Velocity of Object =  < 10.000, 10.000 >  ft/sec on an x and y plane
+ Ball 2: Location =  (100.000, 100.000)  Velocity of Object =  < -100.000, -100.000 >  ft/sec on an x and y plane
+ Ball 3: Location =  (20.000, 20.000)  Velocity of Object =  < 200.000, 200.000 >  ft/sec on an x and y plane
+ Ball 4: Location =  (50.000, 50.000)  Velocity of Object =  < -110.000, -110.000 >  ft/sec on an x and y plane
+ Ball 5: Location =  (27.000, 27.000)  Velocity of Object =  < 1.000, 1.000 >  ft/sec on an x and y plane
+ Ball 6: Location =  (53.000, 53.000)  Velocity of Object =  < -5.000, -5.000 >  ft/sec on an x and y plane
+ Ball 7: Location =  (-100.000, -100.000)  Velocity of Object =  < 200.000, 200.000 >  ft/sec on an x and y plane
+ Ball 8: Location =  (-20.000, -20.000)  Velocity of Object =  < 300.000, 300.000 >  ft/sec on an x and y plane
+ Ball 9: Location =  (-110.000, -110.000)  Velocity of Object =  < 20.000, 20.000 >  ft/sec on an x and y plane
+ Ball 10: Location =  (1.000, 1.000)  Velocity of Object =  < 50.000, 50.000 >  ft/sec on an x and y plane
+10.0
+WHEN It's 0.0:0.0:10.0
+ Ball 1: Location =  (160.000, 110.000)  Velocity of Object =  < 9.044, 9.044 >  ft/sec on an x and y plane
+ Ball 2: Location =  (0.000, 0.000)  Velocity of Object =  < -90.438, -90.438 >  ft/sec on an x and y plane
+ Ball 3: Location =  (220.000, 220.000)  Velocity of Object =  < 180.876, 180.876 >  ft/sec on an x and y plane
+ Ball 4: Location =  (-60.000, -60.000)  Velocity of Object =  < -99.482, -99.482 >  ft/sec on an x and y plane
+ Ball 5: Location =  (28.000, 28.000)  Velocity of Object =  < 0.904, 0.904 >  ft/sec on an x and y plane
+ Ball 6: Location =  (48.000, 48.000)  Velocity of Object =  < -4.522, -4.522 >  ft/sec on an x and y plane
+ Ball 7: Location =  (100.000, 100.000)  Velocity of Object =  < 180.876, 180.876 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 271.315, 271.315 >  ft/sec on an x and y plane
+ Ball 9: Location =  (-90.000, -90.000)  Velocity of Object =  < 18.088, 18.088 >  ft/sec on an x and y plane
+ Ball 10: Location =  (51.000, 51.000)  Velocity of Object =  < 45.219, 45.219 >  ft/sec on an x and y plane
+20.0
+WHEN It's 0.0:0.0:20.0
+ Ball 1: Location =  (169.044, 119.044)  Velocity of Object =  < 8.179, 8.179 >  ft/sec on an x and y plane
+ Ball 2: Location =  (-90.438, -90.438)  Velocity of Object =  < -81.791, -81.791 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 163.581, 163.581 >  ft/sec on an x and y plane
+ Ball 4: Location =  (-159.482, -159.482)  Velocity of Object =  < -89.970, -89.970 >  ft/sec on an x and y plane
+ Ball 5: Location =  (28.904, 28.904)  Velocity of Object =  < 0.818, 0.818 >  ft/sec on an x and y plane
+ Ball 6: Location =  (43.478, 43.478)  Velocity of Object =  < -4.090, -4.090 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 163.581, 163.581 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 245.372, 245.372 >  ft/sec on an x and y plane
+ Ball 9: Location =  (-71.912, -71.912)  Velocity of Object =  < 16.358, 16.358 >  ft/sec on an x and y plane
+ Ball 10: Location =  (96.219, 96.219)  Velocity of Object =  < 40.895, 40.895 >  ft/sec on an x and y plane
+30.0
+WHEN It's 0.0:0.0:30.0
+ Ball 1: Location =  (177.223, 127.223)  Velocity of Object =  < 7.397, 7.397 >  ft/sec on an x and y plane
+ Ball 2: Location =  (-172.229, -172.229)  Velocity of Object =  < -73.970, -73.970 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 147.940, 147.940 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -81.367, -81.367 >  ft/sec on an x and y plane
+ Ball 5: Location =  (29.722, 29.722)  Velocity of Object =  < 0.740, 0.740 >  ft/sec on an x and y plane
+ Ball 6: Location =  (39.389, 39.389)  Velocity of Object =  < -3.699, -3.699 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 147.940, 147.940 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 221.910, 221.910 >  ft/sec on an x and y plane
+ Ball 9: Location =  (-55.554, -55.554)  Velocity of Object =  < 14.794, 14.794 >  ft/sec on an x and y plane
+ Ball 10: Location =  (137.114, 137.114)  Velocity of Object =  < 36.985, 36.985 >  ft/sec on an x and y plane
+40.0
+WHEN It's 0.0:0.0:40.0
+ Ball 1: Location =  (184.620, 134.620)  Velocity of Object =  < 6.690, 6.690 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -66.897, -66.897 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 133.794, 133.794 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -73.587, -73.587 >  ft/sec on an x and y plane
+ Ball 5: Location =  (30.462, 30.462)  Velocity of Object =  < 0.669, 0.669 >  ft/sec on an x and y plane
+ Ball 6: Location =  (35.690, 35.690)  Velocity of Object =  < -3.345, -3.345 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 133.794, 133.794 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 200.692, 200.692 >  ft/sec on an x and y plane
+ Ball 9: Location =  (-40.760, -40.760)  Velocity of Object =  < 13.379, 13.379 >  ft/sec on an x and y plane
+ Ball 10: Location =  (174.099, 174.099)  Velocity of Object =  < 33.449, 33.449 >  ft/sec on an x and y plane
+50.0
+WHEN It's 0.0:0.0:50.0
+ Ball 1: Location =  (191.310, 141.310)  Velocity of Object =  < 6.050, 6.050 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -60.501, -60.501 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 121.001, 121.001 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -66.551, -66.551 >  ft/sec on an x and y plane
+ Ball 5: Location =  (31.131, 31.131)  Velocity of Object =  < 0.605, 0.605 >  ft/sec on an x and y plane
+ Ball 6: Location =  (32.345, 32.345)  Velocity of Object =  < -3.025, -3.025 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 121.001, 121.001 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 181.502, 181.502 >  ft/sec on an x and y plane
+ Ball 9: Location =  (-27.381, -27.381)  Velocity of Object =  < 12.100, 12.100 >  ft/sec on an x and y plane
+ Ball 10: Location =  (207.548, 207.548)  Velocity of Object =  < 30.250, 30.250 >  ft/sec on an x and y plane
+60.0
+WHEN It's 0.0:1.0:0.0
+ Ball 1: Location =  (197.360, 147.360)  Velocity of Object =  < 5.472, 5.472 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -54.716, -54.716 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 109.431, 109.431 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -60.187, -60.187 >  ft/sec on an x and y plane
+ Ball 5: Location =  (31.736, 31.736)  Velocity of Object =  < 0.547, 0.547 >  ft/sec on an x and y plane
+ Ball 6: Location =  (29.320, 29.320)  Velocity of Object =  < -2.736, -2.736 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 109.431, 109.431 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 164.147, 164.147 >  ft/sec on an x and y plane
+ Ball 9: Location =  (-15.281, -15.281)  Velocity of Object =  < 10.943, 10.943 >  ft/sec on an x and y plane
+ Ball 10: Location =  (237.798, 237.798)  Velocity of Object =  < 27.358, 27.358 >  ft/sec on an x and y plane
+70.0
+WHEN It's 0.0:1.0:10.0
+ Ball 1: Location =  (202.831, 152.831)  Velocity of Object =  < 4.948, 4.948 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -49.484, -49.484 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 98.968, 98.968 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -54.432, -54.432 >  ft/sec on an x and y plane
+ Ball 5: Location =  (32.283, 32.283)  Velocity of Object =  < 0.495, 0.495 >  ft/sec on an x and y plane
+ Ball 6: Location =  (26.584, 26.584)  Velocity of Object =  < -2.474, -2.474 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 98.968, 98.968 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 148.452, 148.452 >  ft/sec on an x and y plane
+ Ball 9: Location =  (-4.338, -4.338)  Velocity of Object =  < 9.897, 9.897 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 24.742, 24.742 >  ft/sec on an x and y plane
+80.0
+WHEN It's 0.0:1.0:20.0
+ Ball 1: Location =  (207.780, 157.780)  Velocity of Object =  < 4.475, 4.475 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -44.752, -44.752 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 89.505, 89.505 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -49.228, -49.228 >  ft/sec on an x and y plane
+ Ball 5: Location =  (32.778, 32.778)  Velocity of Object =  < 0.448, 0.448 >  ft/sec on an x and y plane
+ Ball 6: Location =  (24.110, 24.110)  Velocity of Object =  < -2.238, -2.238 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 89.505, 89.505 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 134.257, 134.257 >  ft/sec on an x and y plane
+ Ball 9: Location =  (5.559, 5.559)  Velocity of Object =  < 8.950, 8.950 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 22.376, 22.376 >  ft/sec on an x and y plane
+90.0
+WHEN It's 0.0:1.0:30.0
+ Ball 1: Location =  (212.255, 162.255)  Velocity of Object =  < 4.047, 4.047 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -40.473, -40.473 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 80.946, 80.946 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -44.521, -44.521 >  ft/sec on an x and y plane
+ Ball 5: Location =  (33.225, 33.225)  Velocity of Object =  < 0.405, 0.405 >  ft/sec on an x and y plane
+ Ball 6: Location =  (21.873, 21.873)  Velocity of Object =  < -2.024, -2.024 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 80.946, 80.946 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 121.420, 121.420 >  ft/sec on an x and y plane
+ Ball 9: Location =  (14.510, 14.510)  Velocity of Object =  < 8.095, 8.095 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 20.237, 20.237 >  ft/sec on an x and y plane
+100.0
+WHEN It's 0.0:1.0:40.0
+ Ball 1: Location =  (216.302, 166.302)  Velocity of Object =  < 3.660, 3.660 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -36.603, -36.603 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 73.206, 73.206 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -40.264, -40.264 >  ft/sec on an x and y plane
+ Ball 5: Location =  (33.630, 33.630)  Velocity of Object =  < 0.366, 0.366 >  ft/sec on an x and y plane
+ Ball 6: Location =  (19.849, 19.849)  Velocity of Object =  < -1.830, -1.830 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 73.206, 73.206 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 109.810, 109.810 >  ft/sec on an x and y plane
+ Ball 9: Location =  (22.604, 22.604)  Velocity of Object =  < 7.321, 7.321 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 18.302, 18.302 >  ft/sec on an x and y plane
+110.0
+WHEN It's 0.0:1.0:50.0
+ Ball 1: Location =  (219.963, 169.963)  Velocity of Object =  < 3.310, 3.310 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -33.103, -33.103 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 66.207, 66.207 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -36.414, -36.414 >  ft/sec on an x and y plane
+ Ball 5: Location =  (33.996, 33.996)  Velocity of Object =  < 0.331, 0.331 >  ft/sec on an x and y plane
+ Ball 6: Location =  (18.019, 18.019)  Velocity of Object =  < -1.655, -1.655 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 66.207, 66.207 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 99.310, 99.310 >  ft/sec on an x and y plane
+ Ball 9: Location =  (29.925, 29.925)  Velocity of Object =  < 6.621, 6.621 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 16.552, 16.552 >  ft/sec on an x and y plane
+120.0
+WHEN It's 0.0:2.0:0.0
+ Ball 1: Location =  (223.273, 173.273)  Velocity of Object =  < 2.994, 2.994 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -29.938, -29.938 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 59.876, 59.876 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -32.932, -32.932 >  ft/sec on an x and y plane
+ Ball 5: Location =  (34.327, 34.327)  Velocity of Object =  < 0.299, 0.299 >  ft/sec on an x and y plane
+ Ball 6: Location =  (16.364, 16.364)  Velocity of Object =  < -1.497, -1.497 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 59.876, 59.876 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 89.814, 89.814 >  ft/sec on an x and y plane
+ Ball 9: Location =  (36.546, 36.546)  Velocity of Object =  < 5.988, 5.988 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 14.969, 14.969 >  ft/sec on an x and y plane
+130.0
+WHEN It's 0.0:2.0:10.0
+ Ball 1: Location =  (226.267, 176.267)  Velocity of Object =  < 2.708, 2.708 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -27.075, -27.075 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 54.151, 54.151 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -29.783, -29.783 >  ft/sec on an x and y plane
+ Ball 5: Location =  (34.627, 34.627)  Velocity of Object =  < 0.271, 0.271 >  ft/sec on an x and y plane
+ Ball 6: Location =  (14.867, 14.867)  Velocity of Object =  < -1.354, -1.354 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 54.151, 54.151 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 81.226, 81.226 >  ft/sec on an x and y plane
+ Ball 9: Location =  (42.533, 42.533)  Velocity of Object =  < 5.415, 5.415 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 13.538, 13.538 >  ft/sec on an x and y plane
+140.0
+WHEN It's 0.0:2.0:20.0
+ Ball 1: Location =  (228.974, 178.974)  Velocity of Object =  < 2.449, 2.449 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -24.487, -24.487 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 48.973, 48.973 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -26.935, -26.935 >  ft/sec on an x and y plane
+ Ball 5: Location =  (34.897, 34.897)  Velocity of Object =  < 0.245, 0.245 >  ft/sec on an x and y plane
+ Ball 6: Location =  (13.513, 13.513)  Velocity of Object =  < -1.224, -1.224 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 48.973, 48.973 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 73.460, 73.460 >  ft/sec on an x and y plane
+ Ball 9: Location =  (47.948, 47.948)  Velocity of Object =  < 4.897, 4.897 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 12.243, 12.243 >  ft/sec on an x and y plane
+150.0
+WHEN It's 0.0:2.0:30.0
+ Ball 1: Location =  (231.423, 181.423)  Velocity of Object =  < 2.215, 2.215 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -22.145, -22.145 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 44.290, 44.290 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -24.360, -24.360 >  ft/sec on an x and y plane
+ Ball 5: Location =  (35.142, 35.142)  Velocity of Object =  < 0.221, 0.221 >  ft/sec on an x and y plane
+ Ball 6: Location =  (12.289, 12.289)  Velocity of Object =  < -1.107, -1.107 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 44.290, 44.290 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 66.436, 66.436 >  ft/sec on an x and y plane
+ Ball 9: Location =  (52.846, 52.846)  Velocity of Object =  < 4.429, 4.429 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 11.073, 11.073 >  ft/sec on an x and y plane
+160.0
+WHEN It's 0.0:2.0:40.0
+ Ball 1: Location =  (233.637, 183.637)  Velocity of Object =  < 2.003, 2.003 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -20.028, -20.028 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 40.055, 40.055 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -22.030, -22.030 >  ft/sec on an x and y plane
+ Ball 5: Location =  (35.364, 35.364)  Velocity of Object =  < 0.200, 0.200 >  ft/sec on an x and y plane
+ Ball 6: Location =  (11.181, 11.181)  Velocity of Object =  < -1.001, -1.001 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 40.055, 40.055 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 60.083, 60.083 >  ft/sec on an x and y plane
+ Ball 9: Location =  (57.275, 57.275)  Velocity of Object =  < 4.006, 4.006 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 10.014, 10.014 >  ft/sec on an x and y plane
+170.0
+WHEN It's 0.0:2.0:50.0
+ Ball 1: Location =  (235.640, 185.640)  Velocity of Object =  < 1.811, 1.811 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -18.113, -18.113 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 36.225, 36.225 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -19.924, -19.924 >  ft/sec on an x and y plane
+ Ball 5: Location =  (35.564, 35.564)  Velocity of Object =  < 0.181, 0.181 >  ft/sec on an x and y plane
+ Ball 6: Location =  (10.180, 10.180)  Velocity of Object =  < -0.906, -0.906 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 36.225, 36.225 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 54.338, 54.338 >  ft/sec on an x and y plane
+ Ball 9: Location =  (61.280, 61.280)  Velocity of Object =  < 3.623, 3.623 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 9.056, 9.056 >  ft/sec on an x and y plane
+180.0
+WHEN It's 0.0:3.0:0.0
+ Ball 1: Location =  (237.451, 187.451)  Velocity of Object =  < 1.638, 1.638 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -16.381, -16.381 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 32.762, 32.762 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -18.019, -18.019 >  ft/sec on an x and y plane
+ Ball 5: Location =  (35.745, 35.745)  Velocity of Object =  < 0.164, 0.164 >  ft/sec on an x and y plane
+ Ball 6: Location =  (9.274, 9.274)  Velocity of Object =  < -0.819, -0.819 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 32.762, 32.762 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 49.142, 49.142 >  ft/sec on an x and y plane
+ Ball 9: Location =  (64.903, 64.903)  Velocity of Object =  < 3.276, 3.276 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 8.190, 8.190 >  ft/sec on an x and y plane
+190.0
+WHEN It's 0.0:3.0:10.0
+ Ball 1: Location =  (239.089, 189.089)  Velocity of Object =  < 1.481, 1.481 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -14.814, -14.814 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 29.629, 29.629 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -16.296, -16.296 >  ft/sec on an x and y plane
+ Ball 5: Location =  (35.909, 35.909)  Velocity of Object =  < 0.148, 0.148 >  ft/sec on an x and y plane
+ Ball 6: Location =  (8.455, 8.455)  Velocity of Object =  < -0.741, -0.741 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 29.629, 29.629 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 44.443, 44.443 >  ft/sec on an x and y plane
+ Ball 9: Location =  (68.179, 68.179)  Velocity of Object =  < 2.963, 2.963 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 7.407, 7.407 >  ft/sec on an x and y plane
+200.0
+WHEN It's 0.0:3.0:20.0
+ Ball 1: Location =  (240.571, 190.571)  Velocity of Object =  < 1.340, 1.340 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -13.398, -13.398 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 26.796, 26.796 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -14.738, -14.738 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.057, 36.057)  Velocity of Object =  < 0.134, 0.134 >  ft/sec on an x and y plane
+ Ball 6: Location =  (7.715, 7.715)  Velocity of Object =  < -0.670, -0.670 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 26.796, 26.796 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 40.194, 40.194 >  ft/sec on an x and y plane
+ Ball 9: Location =  (71.142, 71.142)  Velocity of Object =  < 2.680, 2.680 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 6.699, 6.699 >  ft/sec on an x and y plane
+210.0
+WHEN It's 0.0:3.0:30.0
+ Ball 1: Location =  (241.911, 191.911)  Velocity of Object =  < 1.212, 1.212 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -12.117, -12.117 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 24.234, 24.234 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -13.329, -13.329 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.191, 36.191)  Velocity of Object =  < 0.121, 0.121 >  ft/sec on an x and y plane
+ Ball 6: Location =  (7.045, 7.045)  Velocity of Object =  < -0.606, -0.606 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 24.234, 24.234 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 36.351, 36.351 >  ft/sec on an x and y plane
+ Ball 9: Location =  (73.821, 73.821)  Velocity of Object =  < 2.423, 2.423 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 6.058, 6.058 >  ft/sec on an x and y plane
+220.0
+WHEN It's 0.0:3.0:40.0
+ Ball 1: Location =  (243.122, 193.122)  Velocity of Object =  < 1.096, 1.096 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -10.958, -10.958 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 21.917, 21.917 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -12.054, -12.054 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.312, 36.312)  Velocity of Object =  < 0.110, 0.110 >  ft/sec on an x and y plane
+ Ball 6: Location =  (6.439, 6.439)  Velocity of Object =  < -0.548, -0.548 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 21.917, 21.917 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 32.875, 32.875 >  ft/sec on an x and y plane
+ Ball 9: Location =  (76.245, 76.245)  Velocity of Object =  < 2.192, 2.192 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 5.479, 5.479 >  ft/sec on an x and y plane
+230.0
+WHEN It's 0.0:3.0:50.0
+ Ball 1: Location =  (244.218, 194.218)  Velocity of Object =  < 0.991, 0.991 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -9.910, -9.910 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 19.821, 19.821 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -10.902, -10.902 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.422, 36.422)  Velocity of Object =  < 0.099, 0.099 >  ft/sec on an x and y plane
+ Ball 6: Location =  (5.891, 5.891)  Velocity of Object =  < -0.496, -0.496 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 19.821, 19.821 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 29.731, 29.731 >  ft/sec on an x and y plane
+ Ball 9: Location =  (78.436, 78.436)  Velocity of Object =  < 1.982, 1.982 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 4.955, 4.955 >  ft/sec on an x and y plane
+240.0
+WHEN It's 0.0:4.0:0.0
+ Ball 1: Location =  (245.209, 195.209)  Velocity of Object =  < 0.896, 0.896 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -8.963, -8.963 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 17.926, 17.926 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -9.859, -9.859 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.521, 36.521)  Velocity of Object =  < 0.090, 0.090 >  ft/sec on an x and y plane
+ Ball 6: Location =  (5.395, 5.395)  Velocity of Object =  < -0.448, -0.448 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 17.926, 17.926 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 26.889, 26.889 >  ft/sec on an x and y plane
+ Ball 9: Location =  (80.419, 80.419)  Velocity of Object =  < 1.793, 1.793 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 4.481, 4.481 >  ft/sec on an x and y plane
+250.0
+WHEN It's 0.0:4.0:10.0
+ Ball 1: Location =  (246.106, 196.106)  Velocity of Object =  < 0.811, 0.811 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -8.106, -8.106 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 16.212, 16.212 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -8.916, -8.916 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.611, 36.611)  Velocity of Object =  At rest 
+ Ball 6: Location =  (4.947, 4.947)  Velocity of Object =  < -0.405, -0.405 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 16.212, 16.212 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 24.318, 24.318 >  ft/sec on an x and y plane
+ Ball 9: Location =  (82.211, 82.211)  Velocity of Object =  < 1.621, 1.621 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 4.053, 4.053 >  ft/sec on an x and y plane
+260.0
+WHEN It's 0.0:4.0:20.0
+ Ball 1: Location =  (246.916, 196.916)  Velocity of Object =  < 0.733, 0.733 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -7.331, -7.331 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 14.662, 14.662 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -8.064, -8.064 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.692, 36.692)  Velocity of Object =  At rest 
+ Ball 6: Location =  (4.542, 4.542)  Velocity of Object =  < -0.367, -0.367 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 14.662, 14.662 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 21.992, 21.992 >  ft/sec on an x and y plane
+ Ball 9: Location =  (83.832, 83.832)  Velocity of Object =  < 1.466, 1.466 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.665, 3.665 >  ft/sec on an x and y plane
+270.0
+WHEN It's 0.0:4.0:30.0
+ Ball 1: Location =  (247.649, 197.649)  Velocity of Object =  < 0.663, 0.663 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -6.630, -6.630 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 13.260, 13.260 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -7.293, -7.293 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.765, 36.765)  Velocity of Object =  At rest 
+ Ball 6: Location =  (4.175, 4.175)  Velocity of Object =  < -0.331, -0.331 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 13.260, 13.260 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 19.889, 19.889 >  ft/sec on an x and y plane
+ Ball 9: Location =  (85.298, 85.298)  Velocity of Object =  < 1.326, 1.326 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.315, 3.315 >  ft/sec on an x and y plane
+280.0
+WHEN It's 0.0:4.0:40.0
+ Ball 1: Location =  (248.312, 198.312)  Velocity of Object =  < 0.600, 0.600 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -5.996, -5.996 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 11.992, 11.992 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -6.595, -6.595 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.831, 36.831)  Velocity of Object =  At rest 
+ Ball 6: Location =  (3.844, 3.844)  Velocity of Object =  < -0.300, -0.300 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 11.992, 11.992 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 17.988, 17.988 >  ft/sec on an x and y plane
+ Ball 9: Location =  (86.624, 86.624)  Velocity of Object =  < 1.199, 1.199 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.998, 2.998 >  ft/sec on an x and y plane
+290.0
+WHEN It's 0.0:4.0:50.0
+ Ball 1: Location =  (248.912, 198.912)  Velocity of Object =  < 0.542, 0.542 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -5.423, -5.423 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 10.845, 10.845 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -5.965, -5.965 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.891, 36.891)  Velocity of Object =  At rest 
+ Ball 6: Location =  (3.544, 3.544)  Velocity of Object =  < -0.271, -0.271 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 10.845, 10.845 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 16.268, 16.268 >  ft/sec on an x and y plane
+ Ball 9: Location =  (87.824, 87.824)  Velocity of Object =  < 1.085, 1.085 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.711, 2.711 >  ft/sec on an x and y plane
+300.0
+WHEN It's 0.0:5.0:0.0
+ Ball 1: Location =  (249.454, 199.454)  Velocity of Object =  < 0.490, 0.490 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -4.904, -4.904 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 9.808, 9.808 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -5.394, -5.394 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.945, 36.945)  Velocity of Object =  At rest 
+ Ball 6: Location =  (3.273, 3.273)  Velocity of Object =  < -0.245, -0.245 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 9.808, 9.808 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 14.712, 14.712 >  ft/sec on an x and y plane
+ Ball 9: Location =  (88.908, 88.908)  Velocity of Object =  < 0.981, 0.981 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.452, 2.452 >  ft/sec on an x and y plane
+310.0
+WHEN It's 0.0:5.0:10.0
+ Ball 1: Location =  (249.944, 199.944)  Velocity of Object =  < 0.444, 0.444 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -4.435, -4.435 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 8.870, 8.870 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -4.879, -4.879 >  ft/sec on an x and y plane
+ Ball 5: Location =  (36.994, 36.994)  Velocity of Object =  At rest 
+ Ball 6: Location =  (3.028, 3.028)  Velocity of Object =  < -0.222, -0.222 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 8.870, 8.870 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 13.306, 13.306 >  ft/sec on an x and y plane
+ Ball 9: Location =  (89.889, 89.889)  Velocity of Object =  < 0.887, 0.887 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.218, 2.218 >  ft/sec on an x and y plane
+320.0
+WHEN It's 0.0:5.0:20.0
+ Ball 1: Location =  (250.388, 200.388)  Velocity of Object =  < 0.401, 0.401 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -4.011, -4.011 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 8.022, 8.022 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -4.412, -4.412 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.039, 37.039)  Velocity of Object =  At rest 
+ Ball 6: Location =  (2.806, 2.806)  Velocity of Object =  < -0.201, -0.201 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 8.022, 8.022 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 12.033, 12.033 >  ft/sec on an x and y plane
+ Ball 9: Location =  (90.776, 90.776)  Velocity of Object =  < 0.802, 0.802 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.006, 2.006 >  ft/sec on an x and y plane
+330.0
+WHEN It's 0.0:5.0:30.0
+ Ball 1: Location =  (250.789, 200.789)  Velocity of Object =  < 0.363, 0.363 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -3.628, -3.628 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 7.255, 7.255 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -3.990, -3.990 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.079, 37.079)  Velocity of Object =  At rest 
+ Ball 6: Location =  (2.605, 2.605)  Velocity of Object =  < -0.181, -0.181 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 7.255, 7.255 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 10.883, 10.883 >  ft/sec on an x and y plane
+ Ball 9: Location =  (91.578, 91.578)  Velocity of Object =  < 0.726, 0.726 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.814, 1.814 >  ft/sec on an x and y plane
+340.0
+WHEN It's 0.0:5.0:40.0
+ Ball 1: Location =  (251.152, 201.152)  Velocity of Object =  < 0.328, 0.328 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -3.281, -3.281 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 6.561, 6.561 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -3.609, -3.609 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.115, 37.115)  Velocity of Object =  At rest 
+ Ball 6: Location =  (2.424, 2.424)  Velocity of Object =  < -0.164, -0.164 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 6.561, 6.561 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 9.842, 9.842 >  ft/sec on an x and y plane
+ Ball 9: Location =  (92.304, 92.304)  Velocity of Object =  < 0.656, 0.656 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.640, 1.640 >  ft/sec on an x and y plane
+350.0
+WHEN It's 0.0:5.0:50.0
+ Ball 1: Location =  (251.480, 201.480)  Velocity of Object =  < 0.297, 0.297 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -2.967, -2.967 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 5.934, 5.934 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -3.264, -3.264 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.148, 37.148)  Velocity of Object =  At rest 
+ Ball 6: Location =  (2.260, 2.260)  Velocity of Object =  < -0.148, -0.148 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 5.934, 5.934 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 8.901, 8.901 >  ft/sec on an x and y plane
+ Ball 9: Location =  (92.960, 92.960)  Velocity of Object =  < 0.593, 0.593 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.484, 1.484 >  ft/sec on an x and y plane
+360.0
+WHEN It's 0.0:6.0:0.0
+ Ball 1: Location =  (251.777, 201.777)  Velocity of Object =  < 0.268, 0.268 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -2.683, -2.683 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 5.367, 5.367 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -2.952, -2.952 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.178, 37.178)  Velocity of Object =  At rest 
+ Ball 6: Location =  (2.112, 2.112)  Velocity of Object =  < -0.134, -0.134 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 5.367, 5.367 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 8.050, 8.050 >  ft/sec on an x and y plane
+ Ball 9: Location =  (93.553, 93.553)  Velocity of Object =  < 0.537, 0.537 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.342, 1.342 >  ft/sec on an x and y plane
+370.0
+WHEN It's 0.0:6.0:10.0
+ Ball 1: Location =  (252.045, 202.045)  Velocity of Object =  < 0.243, 0.243 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -2.427, -2.427 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 4.853, 4.853 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -2.669, -2.669 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.204, 37.204)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.978, 1.978)  Velocity of Object =  < -0.121, -0.121 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 4.853, 4.853 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 7.280, 7.280 >  ft/sec on an x and y plane
+ Ball 9: Location =  (94.090, 94.090)  Velocity of Object =  < 0.485, 0.485 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.213, 1.213 >  ft/sec on an x and y plane
+380.0
+WHEN It's 0.0:6.0:20.0
+ Ball 1: Location =  (252.288, 202.288)  Velocity of Object =  < 0.219, 0.219 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -2.195, -2.195 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 4.389, 4.389 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -2.414, -2.414 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.229, 37.229)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.856, 1.856)  Velocity of Object =  < -0.110, -0.110 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 4.389, 4.389 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 6.584, 6.584 >  ft/sec on an x and y plane
+ Ball 9: Location =  (94.575, 94.575)  Velocity of Object =  < 0.439, 0.439 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.097, 1.097 >  ft/sec on an x and y plane
+390.0
+WHEN It's 0.0:6.0:30.0
+ Ball 1: Location =  (252.507, 202.507)  Velocity of Object =  < 0.198, 0.198 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.985, -1.985 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.970, 3.970 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -2.183, -2.183 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.251, 37.251)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.746, 1.746)  Velocity of Object =  < -0.099, -0.099 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.970, 3.970 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 5.955, 5.955 >  ft/sec on an x and y plane
+ Ball 9: Location =  (95.014, 95.014)  Velocity of Object =  < 0.397, 0.397 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.992, 0.992 >  ft/sec on an x and y plane
+400.0
+WHEN It's 0.0:6.0:40.0
+ Ball 1: Location =  (252.706, 202.706)  Velocity of Object =  < 0.180, 0.180 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.795, -1.795 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.590, 3.590 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.975, -1.975 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.271, 37.271)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.647, 1.647)  Velocity of Object =  < -0.090, -0.090 >  ft/sec on an x and y plane
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.590, 3.590 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 5.385, 5.385 >  ft/sec on an x and y plane
+ Ball 9: Location =  (95.411, 95.411)  Velocity of Object =  < 0.359, 0.359 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.898, 0.898 >  ft/sec on an x and y plane
+410.0
+WHEN It's 0.0:6.0:50.0
+ Ball 1: Location =  (252.885, 202.885)  Velocity of Object =  < 0.162, 0.162 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.623, -1.623 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.247, 3.247 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.786, -1.786 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.289, 37.289)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.557, 1.557)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.247, 3.247 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 4.870, 4.870 >  ft/sec on an x and y plane
+ Ball 9: Location =  (95.770, 95.770)  Velocity of Object =  < 0.325, 0.325 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.812, 0.812 >  ft/sec on an x and y plane
+420.0
+WHEN It's 0.0:7.0:0.0
+ Ball 1: Location =  (253.047, 203.047)  Velocity of Object =  < 0.147, 0.147 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.468, -1.468 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.936, 2.936 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.615, -1.615 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.305, 37.305)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.476, 1.476)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.936, 2.936 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 4.405, 4.405 >  ft/sec on an x and y plane
+ Ball 9: Location =  (96.095, 96.095)  Velocity of Object =  < 0.294, 0.294 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.734, 0.734 >  ft/sec on an x and y plane
+430.0
+WHEN It's 0.0:7.0:10.0
+ Ball 1: Location =  (253.194, 203.194)  Velocity of Object =  < 0.133, 0.133 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.328, -1.328 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.656, 2.656 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.461, -1.461 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.319, 37.319)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.403, 1.403)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.656, 2.656 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.983, 3.983 >  ft/sec on an x and y plane
+ Ball 9: Location =  (96.388, 96.388)  Velocity of Object =  < 0.266, 0.266 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.664, 0.664 >  ft/sec on an x and y plane
+440.0
+WHEN It's 0.0:7.0:20.0
+ Ball 1: Location =  (253.327, 203.327)  Velocity of Object =  < 0.120, 0.120 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.201, -1.201 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.402, 2.402 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.321, -1.321 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.333, 37.333)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.336, 1.336)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.402, 2.402 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.603, 3.603 >  ft/sec on an x and y plane
+ Ball 9: Location =  (96.654, 96.654)  Velocity of Object =  < 0.240, 0.240 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.600, 0.600 >  ft/sec on an x and y plane
+450.0
+WHEN It's 0.0:7.0:30.0
+ Ball 1: Location =  (253.447, 203.447)  Velocity of Object =  < 0.109, 0.109 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.086, -1.086 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.172, 2.172 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.195, -1.195 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.345, 37.345)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.276, 1.276)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.172, 2.172 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 3.258, 3.258 >  ft/sec on an x and y plane
+ Ball 9: Location =  (96.894, 96.894)  Velocity of Object =  < 0.217, 0.217 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.543, 0.543 >  ft/sec on an x and y plane
+460.0
+WHEN It's 0.0:7.0:40.0
+ Ball 1: Location =  (253.556, 203.556)  Velocity of Object =  < 0.098, 0.098 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.982, -0.982 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.964, 1.964 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -1.080, -1.080 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.356, 37.356)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.222, 1.222)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.964, 1.964 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.947, 2.947 >  ft/sec on an x and y plane
+ Ball 9: Location =  (97.111, 97.111)  Velocity of Object =  < 0.196, 0.196 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.491, 0.491 >  ft/sec on an x and y plane
+470.0
+WHEN It's 0.0:7.0:50.0
+ Ball 1: Location =  (253.654, 203.654)  Velocity of Object =  < 0.089, 0.089 >  ft/sec on an x and y plane
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.888, -0.888 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.777, 1.777 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.977, -0.977 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.365, 37.365)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.173, 1.173)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.777, 1.777 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.665, 2.665 >  ft/sec on an x and y plane
+ Ball 9: Location =  (97.308, 97.308)  Velocity of Object =  < 0.178, 0.178 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.444, 0.444 >  ft/sec on an x and y plane
+480.0
+WHEN It's 0.0:8.0:0.0
+ Ball 1: Location =  (253.743, 203.743)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.803, -0.803 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.607, 1.607 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.884, -0.884 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.374, 37.374)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.129, 1.129)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.607, 1.607 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.410, 2.410 >  ft/sec on an x and y plane
+ Ball 9: Location =  (97.486, 97.486)  Velocity of Object =  < 0.161, 0.161 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.402, 0.402 >  ft/sec on an x and y plane
+490.0
+WHEN It's 0.0:8.0:10.0
+ Ball 1: Location =  (253.823, 203.823)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.727, -0.727 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.453, 1.453 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.799, -0.799 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.382, 37.382)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.088, 1.088)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.453, 1.453 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 2.180, 2.180 >  ft/sec on an x and y plane
+ Ball 9: Location =  (97.646, 97.646)  Velocity of Object =  < 0.145, 0.145 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.363, 0.363 >  ft/sec on an x and y plane
+500.0
+WHEN It's 0.0:8.0:20.0
+ Ball 1: Location =  (253.896, 203.896)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.657, -0.657 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.314, 1.314 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.723, -0.723 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.390, 37.390)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.052, 1.052)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.314, 1.314 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.971, 1.971 >  ft/sec on an x and y plane
+ Ball 9: Location =  (97.791, 97.791)  Velocity of Object =  < 0.131, 0.131 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.329, 0.329 >  ft/sec on an x and y plane
+510.0
+WHEN It's 0.0:8.0:30.0
+ Ball 1: Location =  (253.961, 203.961)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.594, -0.594 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.188, 1.188 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.654, -0.654 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.396, 37.396)  Velocity of Object =  At rest 
+ Ball 6: Location =  (1.019, 1.019)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.188, 1.188 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.783, 1.783 >  ft/sec on an x and y plane
+ Ball 9: Location =  (97.923, 97.923)  Velocity of Object =  < 0.119, 0.119 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.297, 0.297 >  ft/sec on an x and y plane
+520.0
+WHEN It's 0.0:8.0:40.0
+ Ball 1: Location =  (254.021, 204.021)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.537, -0.537 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.075, 1.075 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.591, -0.591 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.402, 37.402)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.990, 0.990)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.075, 1.075 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.612, 1.612 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.042, 98.042)  Velocity of Object =  < 0.107, 0.107 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.269, 0.269 >  ft/sec on an x and y plane
+530.0
+WHEN It's 0.0:8.0:50.0
+ Ball 1: Location =  (254.075, 204.075)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.486, -0.486 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.972, 0.972 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.535, -0.535 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.407, 37.407)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.963, 0.963)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.972, 0.972 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.458, 1.458 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.149, 98.149)  Velocity of Object =  < 0.097, 0.097 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.243, 0.243 >  ft/sec on an x and y plane
+540.0
+WHEN It's 0.0:9.0:0.0
+ Ball 1: Location =  (254.123, 204.123)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.440, -0.440 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.879, 0.879 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.484, -0.484 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.412, 37.412)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.938, 0.938)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.879, 0.879 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.319, 1.319 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.246, 98.246)  Velocity of Object =  < 0.088, 0.088 >  ft/sec on an x and y plane
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.220, 0.220 >  ft/sec on an x and y plane
+550.0
+WHEN It's 0.0:9.0:10.0
+ Ball 1: Location =  (254.167, 204.167)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.398, -0.398 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.795, 0.795 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.437, -0.437 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.417, 37.417)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.916, 0.916)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.795, 0.795 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.193, 1.193 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.334, 98.334)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.199, 0.199 >  ft/sec on an x and y plane
+560.0
+WHEN It's 0.0:9.0:20.0
+ Ball 1: Location =  (254.207, 204.207)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.360, -0.360 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.719, 0.719 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.395, -0.395 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.421, 37.421)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.897, 0.897)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.719, 0.719 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 1.079, 1.079 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.414, 98.414)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.180, 0.180 >  ft/sec on an x and y plane
+570.0
+WHEN It's 0.0:9.0:30.0
+ Ball 1: Location =  (254.243, 204.243)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.325, -0.325 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.650, 0.650 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.358, -0.358 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.424, 37.424)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.879, 0.879)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.650, 0.650 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.975, 0.975 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.486, 98.486)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.163, 0.163 >  ft/sec on an x and y plane
+580.0
+WHEN It's 0.0:9.0:40.0
+ Ball 1: Location =  (254.275, 204.275)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.294, -0.294 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.588, 0.588 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.323, -0.323 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.428, 37.428)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.862, 0.862)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.588, 0.588 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.882, 0.882 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.551, 98.551)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.147, 0.147 >  ft/sec on an x and y plane
+590.0
+WHEN It's 0.0:9.0:50.0
+ Ball 1: Location =  (254.305, 204.305)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.266, -0.266 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.532, 0.532 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.293, -0.293 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.430, 37.430)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.848, 0.848)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.532, 0.532 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.798, 0.798 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.610, 98.610)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.133, 0.133 >  ft/sec on an x and y plane
+600.0
+WHEN It's 0.0:10.0:0.0
+ Ball 1: Location =  (254.331, 204.331)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.241, -0.241 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.481, 0.481 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.265, -0.265 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.433, 37.433)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.834, 0.834)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.481, 0.481 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.722, 0.722 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.663, 98.663)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.120, 0.120 >  ft/sec on an x and y plane
+610.0
+WHEN It's 0.0:10.0:10.0
+ Ball 1: Location =  (254.355, 204.355)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.218, -0.218 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.435, 0.435 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.239, -0.239 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.436, 37.436)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.822, 0.822)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.435, 0.435 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.653, 0.653 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.711, 98.711)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.109, 0.109 >  ft/sec on an x and y plane
+620.0
+WHEN It's 0.0:10.0:20.0
+ Ball 1: Location =  (254.377, 204.377)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.197, -0.197 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.393, 0.393 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.216, -0.216 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.438, 37.438)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.811, 0.811)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.393, 0.393 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.590, 0.590 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.754, 98.754)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.098, 0.098 >  ft/sec on an x and y plane
+630.0
+WHEN It's 0.0:10.0:30.0
+ Ball 1: Location =  (254.397, 204.397)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.178, -0.178 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.356, 0.356 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.196, -0.196 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.440, 37.440)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.802, 0.802)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.356, 0.356 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.534, 0.534 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.794, 98.794)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.089, 0.089 >  ft/sec on an x and y plane
+640.0
+WHEN It's 0.0:10.0:40.0
+ Ball 1: Location =  (254.415, 204.415)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.161, -0.161 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.322, 0.322 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.177, -0.177 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.441, 37.441)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.793, 0.793)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.322, 0.322 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.483, 0.483 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.829, 98.829)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+650.0
+WHEN It's 0.0:10.0:50.0
+ Ball 1: Location =  (254.431, 204.431)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.146, -0.146 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.291, 0.291 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.160, -0.160 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.443, 37.443)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.785, 0.785)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.291, 0.291 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.437, 0.437 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.861, 98.861)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+660.0
+WHEN It's 0.0:11.0:0.0
+ Ball 1: Location =  (254.445, 204.445)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.132, -0.132 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.263, 0.263 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.145, -0.145 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.445, 37.445)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.777, 0.777)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.263, 0.263 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.395, 0.395 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.891, 98.891)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+670.0
+WHEN It's 0.0:11.0:10.0
+ Ball 1: Location =  (254.458, 204.458)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.119, -0.119 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.238, 0.238 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.131, -0.131 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.446, 37.446)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.771, 0.771)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.238, 0.238 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.357, 0.357 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.917, 98.917)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+680.0
+WHEN It's 0.0:11.0:20.0
+ Ball 1: Location =  (254.470, 204.470)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.108, -0.108 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.215, 0.215 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.118, -0.118 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.447, 37.447)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.765, 0.765)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.215, 0.215 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.323, 0.323 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.941, 98.941)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+690.0
+WHEN It's 0.0:11.0:30.0
+ Ball 1: Location =  (254.481, 204.481)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.097, -0.097 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.195, 0.195 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.107, -0.107 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.448, 37.448)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.759, 0.759)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.195, 0.195 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.292, 0.292 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.962, 98.962)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+700.0
+WHEN It's 0.0:11.0:40.0
+ Ball 1: Location =  (254.491, 204.491)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.088, -0.088 >  ft/sec on an x and y plane
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.176, 0.176 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.097, -0.097 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.449, 37.449)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.755, 0.755)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.176, 0.176 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.264, 0.264 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.982, 98.982)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+710.0
+WHEN It's 0.0:11.0:50.0
+ Ball 1: Location =  (254.500, 204.500)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.159, 0.159 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  < -0.088, -0.088 >  ft/sec on an x and y plane
+ Ball 5: Location =  (37.450, 37.450)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.750, 0.750)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.159, 0.159 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.239, 0.239 >  ft/sec on an x and y plane
+ Ball 9: Location =  (98.999, 98.999)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+720.0
+WHEN It's 0.0:12.0:0.0
+ Ball 1: Location =  (254.508, 204.508)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.144, 0.144 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.451, 37.451)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.746, 0.746)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.144, 0.144 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.216, 0.216 >  ft/sec on an x and y plane
+ Ball 9: Location =  (99.015, 99.015)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+730.0
+WHEN It's 0.0:12.0:10.0
+ Ball 1: Location =  (254.515, 204.515)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.130, 0.130 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.451, 37.451)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.743, 0.743)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.130, 0.130 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.195, 0.195 >  ft/sec on an x and y plane
+ Ball 9: Location =  (99.030, 99.030)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+740.0
+WHEN It's 0.0:12.0:20.0
+ Ball 1: Location =  (254.521, 204.521)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.118, 0.118 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.452, 37.452)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.739, 0.739)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.118, 0.118 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.177, 0.177 >  ft/sec on an x and y plane
+ Ball 9: Location =  (99.043, 99.043)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+750.0
+WHEN It's 0.0:12.0:30.0
+ Ball 1: Location =  (254.527, 204.527)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.107, 0.107 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.453, 37.453)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.736, 0.736)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.107, 0.107 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.160, 0.160 >  ft/sec on an x and y plane
+ Ball 9: Location =  (99.054, 99.054)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+760.0
+WHEN It's 0.0:12.0:40.0
+ Ball 1: Location =  (254.533, 204.533)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.096, 0.096 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.453, 37.453)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.734, 0.734)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.096, 0.096 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.145, 0.145 >  ft/sec on an x and y plane
+ Ball 9: Location =  (99.065, 99.065)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+770.0
+WHEN It's 0.0:12.0:50.0
+ Ball 1: Location =  (254.537, 204.537)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.087, 0.087 >  ft/sec on an x and y plane
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.454, 37.454)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.731, 0.731)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.087, 0.087 >  ft/sec on an x and y plane
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.131, 0.131 >  ft/sec on an x and y plane
+ Ball 9: Location =  (99.075, 99.075)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+780.0
+WHEN It's 0.0:13.0:0.0
+ Ball 1: Location =  (254.542, 204.542)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.454, 37.454)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.729, 0.729)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.118, 0.118 >  ft/sec on an x and y plane
+ Ball 9: Location =  (99.083, 99.083)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+790.0
+WHEN It's 0.0:13.0:10.0
+ Ball 1: Location =  (254.546, 204.546)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.455, 37.455)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.727, 0.727)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.107, 0.107 >  ft/sec on an x and y plane
+ Ball 9: Location =  (99.091, 99.091)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+800.0
+WHEN It's 0.0:13.0:20.0
+ Ball 1: Location =  (254.549, 204.549)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.455, 37.455)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.725, 0.725)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.097, 0.097 >  ft/sec on an x and y plane
+ Ball 9: Location =  (99.098, 99.098)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+810.0
+WHEN It's 0.0:13.0:30.0
+ Ball 1: Location =  (254.552, 204.552)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.455, 37.455)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.724, 0.724)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  < 0.087, 0.087 >  ft/sec on an x and y plane
+ Ball 9: Location =  (99.105, 99.105)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+820.0
+WHEN It's 0.0:13.0:40.0
+ Ball 1: Location =  (254.555, 204.555)  Velocity of Object =  At rest 
+ Ball 2: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 3: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 4: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 5: Location =  (37.456, 37.456)  Velocity of Object =  At rest 
+ Ball 6: Location =  (0.722, 0.722)  Velocity of Object =  At rest 
+ Ball 7: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 8: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+ Ball 9: Location =  (99.111, 99.111)  Velocity of Object =  At rest 
+ Ball 10: Location = Sadly.. out of bounds!  Velocity of Object =  At rest 
+
+ THE PROGRAM HAS ENDED... TRY SOME DIFFERENT NUMBERS
+.                                       
+.                                       
+======================================  
+... End of SoccerSim Testing...         
+======================================  
