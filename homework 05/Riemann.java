@@ -21,7 +21,7 @@ public class Riemann {
          System.out.println("You gotta have more than 3 values man..\n");
          System.exit(0);
        }
-       if (arg[args.length - 1].substring(args[(args.length - 1)].length - 1).equals(PERCENT_SIGN)) {
+       if (arg[args.length - 1].substring(args[(args.length - 1)].length - 1).contains("%")) {
          percentInput = Double.parseDouble(args[(args.length - 1)].substring(0, (args[(args.length - 1)].length() - 1)));
          lowerBound = Double.parseDouble(args[(args.length - 3)]);
          upperBound = Double.parseDouble(args[(args.length - 2)]);
@@ -51,9 +51,9 @@ public class Riemann {
    }
 
    /**
-    * Method to intergrate polynomial functions
+    * Method to intergrate a given polynomial functions
     */
-   public static double polyRiemann() {
+   public static double riemann() {
      totalIterations = 0;
      previousTotal = 0.0;
      currentTotal = 0.0;
@@ -74,14 +74,26 @@ public class Riemann {
    }
 
    /**
-    * Method to integrate sin functions
+    * Method to integrate a given sin function
     */
    public static double sinRiemann() {
      totalIterations = 0;
      previousTotal = 0.0;
      currentTotal = 0.0;
+     riemannSlice = (upperBound - lowerBound);
+     while ((Math.abs(currentTotal - previousTotal) / Math.abs(previousTotal) * 100) > percentInput || totalIterations <= 2) {
+       previousTotal = currentTotal;
+       currentTotal = 0.0;
+       for (double i = lowerBound + riemannSlice; i <=upperBound; i+= riemannSlice) {
+         currentTotal += Math.sin(i) * riemannSlice;
+       }
+       riemannSlice /= 2;
+       totalIterations ++;
+    }
+    totalRecs = Math.pow(2, (totalIterations - 1));
+    return currentTotal;
+  }
 
-   }
 
    /**
     * Method to show the percentage change between two values
@@ -98,10 +110,18 @@ public class Riemann {
      result = "The type of the function is " + this.function + "\n";
    }
 
+   public static void validateArgs(args[]) {
+
+   }
+
    /**
     * The main program starts here
     */
-   public static void public static void main(String[] args) {
-
+   public static void main(String[] args) {
+     if (arg[0] == "poly");
+     polyFunction();
+     return riemann;
+     if (arg[0] == "sin");
    }
+
 }
