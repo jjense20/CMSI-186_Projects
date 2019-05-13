@@ -166,7 +166,7 @@ Results: 33/33 tests passed.
 
     Test21: random Tuple generation with value 1 allowed: 
       expecting success : success
-      creating random tuple: <62,33,3,58,43,53,8>
+      creating random tuple: <55,15,23,61,38,16,9>
 
 
   TESTING RANDOM TUPLE GENERATION
@@ -174,7 +174,7 @@ Results: 33/33 tests passed.
 
     Test22: random Tuple generation with value 1 not allowed: 
       expecting success : success
-      creating random tuple: <40,52,4,58,53,2,64,53,23,71,41>
+      creating random tuple: <23,64,5,31,5,32,31,51,25,13,48>
 
 
   TESTING OF TUPLE GENERATION FOR THREE BOGUS DENOMINATION SETS
